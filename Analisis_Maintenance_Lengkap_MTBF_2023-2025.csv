@@ -1,0 +1,1587 @@
+COMPNAME,2023,2024,2025,MTBF_HARI,TOTAL_KEJADIAN_MTBF,TOTAL_3_TAHUN,TREN_24_vs_25
+#1 D/G Engine,4172,4054,1171,8.5,6443.0,9397,-2883
+#2 D/G Engine,3980,3924,1110,8.7,6300.0,9014,-2814
+#1 Life Raft,3941,3799,1140,7.3,7903.0,8880,-2659
+#2 Life Raft,3808,3723,1146,7.4,7805.0,8677,-2577
+Sewage Treatment Unit,3294,3367,1024,8.1,6593.0,7685,-2343
+Saturday Routine,2843,3331,1015,8.6,6737.0,7189,-2316
+#3 D/G Engine,3219,2994,883,9.7,5081.0,7096,-2111
+Galley,3025,2815,837,8.4,6476.0,6677,-1978
+Emergency Fire Pump,2747,2972,846,9.3,6204.0,6565,-2126
+Radar Transponder,2773,2814,856,10.1,5745.0,6443,-1958
+#1 Main Air Comp.,2594,2802,825,12.4,4599.0,6221,-1977
+#2 Main Air Comp.,2573,2767,808,12.6,4501.0,6148,-1959
+Smoke Detector,2562,2489,748,9.4,5458.0,5799,-1741
+Gyro Repeater,2353,2275,705,8.9,5179.0,5333,-1570
+Emergency Generator Engine,2214,1801,535,12.7,3614.0,4550,-1266
+Provision Plants,1738,1690,472,9.3,3697.0,3900,-1218
+#2 D/G,1510,1559,473,15.8,2903.0,3542,-1086
+#1 D/G,1486,1543,468,15.5,2961.0,3497,-1075
+#3 D/G,1334,1332,400,16.2,2507.0,3066,-932
+Life Boat Port,1262,1336,423,14.9,2834.0,3021,-913
+Sludge Pump Motor,1288,1259,366,19.8,2646.0,2913,-893
+Life Boat Starboard,1342,1139,406,16.6,2648.0,2887,-733
+Oily Water Separator,1214,1193,360,23.4,2445.0,2767,-833
+Emg. Generator,1158,1211,328,24.4,2150.0,2697,-883
+Accomm. Ladder(S),1091,1080,356,21.6,2270.0,2527,-724
+Life Buoy,1102,1073,347,24.9,2277.0,2522,-726
+Accomm. Ladder(P),1078,1072,364,21.3,2262.0,2514,-708
+#1 Fresh Water Pump,1084,1072,323,22.5,2280.0,2479,-749
+Life Boat Davit Port,1061,988,296,20.0,2113.0,2345,-692
+Pilot Ladder(P),646,1189,482,24.7,2067.0,2317,-707
+Pilot Ladder(S),663,1158,453,24.7,2039.0,2274,-705
+#1 M/E L.O. Purifier,916,957,290,25.5,1928.0,2163,-667
+Life Boat Davit Stbd,967,903,281,20.2,1957.0,2151,-622
+Bilge Cargo holds 1 (P),868,884,338,11.6,1907.0,2090,-546
+"Hatches, Ports Cover",832,959,297,26.6,1910.0,2088,-662
+Cooling Water Test dan Treatment,786,971,295,16.5,1881.0,2052,-676
+#1 H.F.O. Purifier,868,901,267,28.4,1809.0,2036,-634
+#2 Fresh Water Pump,892,870,252,25.6,1868.0,2014,-618
+#1 Deck Crane,806,892,303,14.9,1743.0,2001,-589
+M/E F.O. 2nd Filter,833,882,246,26.5,1800.0,1961,-636
+#2 H.F.O. Purifier,867,839,241,28.2,1726.0,1947,-598
+Satellite Epirb,849,822,273,32.0,1813.0,1944,-549
+U-AIS Transponder,813,815,251,31.6,1773.0,1879,-564
+#1 Marine Radar,801,810,261,32.9,1682.0,1872,-549
+Life Line Throwing Apparatus,814,800,250,32.1,1747.0,1864,-550
+Emergency Air Compressor Motor,852,797,211,11.2,1517.0,1860,-586
+CO2 System,784,825,249,31.5,1724.0,1858,-576
+#2 Marine Radar,789,810,250,32.6,1681.0,1849,-560
+Portable Foam Applicator Unit,798,790,258,30.2,1728.0,1846,-532
+#2 Deck Crane,731,842,271,15.7,1612.0,1844,-571
+Electric Rudder Angle Indicator,815,777,248,33.0,1734.0,1840,-529
+Two-Way VHF Radio Telephone,794,787,252,32.1,1742.0,1833,-535
+Navtex Receiver,793,784,251,32.2,1738.0,1828,-533
+Emg. Escape Breathing Device,782,792,250,31.7,1717.0,1824,-542
+Bilge Alarm,784,791,249,32.7,1718.0,1824,-542
+#2 International VHF Radio Tel.,793,781,248,32.3,1733.0,1822,-533
+Portable CO2 Fire Extinguishers,799,770,249,29.9,1712.0,1818,-521
+#2 GPS ,781,784,252,32.3,1720.0,1817,-532
+SSB Radio Telephone,791,771,248,32.2,1717.0,1810,-523
+Anchor / Anchor Chain,799,765,238,33.2,1704.0,1802,-527
+Magnetic Reflector Compass,786,772,243,32.6,1708.0,1801,-529
+#1 International VHF Radio Tel.,788,758,251,32.4,1703.0,1797,-507
+Window Wipers,789,769,237,32.3,1702.0,1795,-532
+Self Contained Breathing Apparatus,777,769,243,31.8,1688.0,1789,-526
+Daylight Signalling Lamp,767,774,238,32.2,1698.0,1779,-536
+#1 GPS ,751,753,241,32.5,1653.0,1745,-512
+#1 Aux. Boiler Feed Water Pump Motor,759,763,213,17.4,1502.0,1735,-550
+#2 Aux. Boiler Feed Water Pump Motor,741,754,228,17.5,1499.0,1723,-526
+Bilge Separator Pump,746,743,233,26.1,1600.0,1722,-510
+Echo Sounder,753,733,235,33.5,1618.0,1721,-498
+Immersion Suits,735,744,241,31.6,1618.0,1720,-503
+Life Jacket with Light,744,734,232,32.0,1622.0,1710,-502
+Bilge Cargo holds 1 (S),649,739,310,12.3,1520.0,1698,-429
+Wind Indicator,734,731,225,31.3,1590.0,1690,-506
+Bilge Cargo holds 2 (P),645,713,316,12.3,1523.0,1674,-397
+Electric Clock,713,727,215,27.0,1544.0,1655,-512
+Group Starter Panels,718,699,227,33.3,1553.0,1644,-472
+30 cm Search Light,705,706,223,32.0,1561.0,1634,-483
+Sampling Lub Oil,671,736,225,46.7,1164.0,1632,-511
+Battery Emergency Generator,669,732,222,33.8,1518.0,1623,-510
+M/E F.O. Primary Strainer,675,714,204,27.9,1455.0,1593,-510
+Portable Foam Extinguishers,691,673,214,34.6,1456.0,1578,-459
+Bilge Cargo holds 2 (S),607,665,300,12.8,1396.0,1572,-365
+Charging And Discharging Panel,677,666,203,33.2,1466.0,1546,-463
+#1 Steering Gear,626,692,187,41.2,1302.0,1505,-505
+GMDSS Radio Station,709,596,183,32.7,1393.0,1488,-413
+#2 Steering Gear,628,673,186,39.5,1284.0,1487,-487
+Antenna Multi Coupler,634,631,194,33.0,1387.0,1459,-437
+HFO / MDO Serv and Settling Tank,631,625,194,33.9,1364.0,1450,-431
+Cargo Hold Water Ingress Detection,630,612,190,32.9,1363.0,1432,-422
+Bilge Well,647,591,181,32.3,1344.0,1419,-410
+Inmarsat C Mes,620,591,189,32.5,1318.0,1400,-402
+Boiler Water Test dan Treatment,399,746,244,9.6,1326.0,1389,-502
+M/E Air Cooler,605,581,197,51.2,1053.0,1383,-384
+Portable Foam Applicator-Car Dk,600,586,179,29.6,1278.0,1365,-407
+Inmarsat Fleet F77 MES,582,577,183,33.2,1277.0,1342,-394
+Ventilation System For Cargo,591,567,180,32.8,1271.0,1338,-387
+Life Boat Starboard Engine,116,907,301,9.3,1198.0,1324,-606
+M/E #2 F.O. Booster Pump Motor,574,583,165,26.7,1202.0,1322,-418
+M/E Overhead Crane,576,568,173,24.8,1226.0,1317,-395
+Bilge Cargo holds 3 (P),504,564,241,12.2,1160.0,1309,-323
+Auto Pilot,561,561,186,35.4,1225.0,1308,-375
+M/E #1 F.O. Booster Pump Motor,567,551,163,27.7,1154.0,1281,-388
+Auxiliary Air Compressor,586,540,147,18.7,977.0,1273,-393
+Life Boat Engine,141,743,336,11.2,1001.0,1220,-407
+M/E #1 Piston and Con Rod,539,497,158,47.3,1006.0,1194,-339
+#3 Life Raft,506,516,140,9.8,1059.0,1162,-376
+Tail End Shaft Monitoring,480,526,153,35.9,1084.0,1159,-373
+M/E #5 Piston and Con Rod,509,487,156,46.2,1019.0,1152,-331
+M/E #2 Piston and Con Rod,496,505,150,47.1,1000.0,1151,-355
+M/E #4 Piston and Con Rod,490,519,136,46.0,1009.0,1145,-383
+#1 Anchor Windlass (S),273,669,197,32.4,1052.0,1139,-472
+Alarms and Trips,244,685,209,29.0,1054.0,1138,-476
+M/E #3 Piston and Con Rod,490,496,147,47.4,990.0,1133,-349
+#2 Anchor Windlass (P),266,664,196,32.3,1039.0,1126,-468
+M/E Turbo Charger,442,505,171,56.2,791.0,1118,-334
+M/E #1 Cylinder head,455,482,175,55.3,775.0,1112,-307
+Unit Coolers,482,472,135,34.2,1032.0,1089,-337
+Bilge Cargo holds 3 (S),378,451,206,14.4,924.0,1035,-245
+Cooling Water Treatment,353,509,161,26.6,740.0,1023,-348
+Special Cargo Handling Equipment,439,433,136,32.5,944.0,1008,-297
+M/E #6 Piston and Con Rod,416,427,120,49.7,836.0,963,-307
+M/E Cyl. Oil Line Filter,408,414,127,33.3,896.0,949,-287
+#1 Aux. Cool. Sea Water Pump Motor,433,393,117,29.4,880.0,943,-276
+#1 Pipe Drain M/E Scav,413,408,120,33.7,880.0,941,-288
+M/E #3 Cylinder head,370,425,141,65.9,599.0,936,-284
+#1 Mooring winch forecastle (S),232,535,161,36.2,839.0,928,-374
+M/E Remote Control Device,400,399,114,56.3,808.0,913,-285
+M/E #4 Cylinder head,363,406,135,69.8,568.0,904,-271
+Free fall life boat,370,419,113,11.4,843.0,902,-306
+M/E #2 Cylinder head,360,383,150,65.3,586.0,893,-233
+M/E #5 Cylinder head,347,391,148,67.1,583.0,886,-243
+Shaft Grounding Device,391,377,115,34.3,820.0,883,-262
+M/E #6 Cylinder head,352,400,129,65.4,551.0,881,-271
+#3 Mooring winch Aft deck (S),215,510,148,38.0,785.0,873,-362
+M/E Safety Device,385,375,106,69.7,752.0,866,-269
+M/E #1 Fuel Inj. Pump,312,414,134,49.3,670.0,860,-280
+D/G F.O. Backwash Filter,375,380,104,26.4,797.0,859,-276
+#1 D/G Safety Device,352,385,114,69.6,762.0,851,-271
+#1 D/G Turbo Charger,380,350,102,55.3,678.0,832,-248
+#1 M/E L.O Cooler,363,366,89,71.9,663.0,818,-277
+Control Air Drier,364,342,106,33.2,762.0,812,-236
+#4 Mooring winch Aft deck (P),199,467,140,38.8,718.0,806,-327
+#2 Aux. Cool. Sea Water Pump Motor,380,332,92,29.3,737.0,804,-240
+#2 D/G Turbo Charger,349,352,101,57.3,636.0,802,-251
+Main Sea Water Pump No.2,360,346,90,56.6,705.0,796,-256
+#2 D/G Safety Device,342,345,107,71.7,708.0,794,-238
+Electro Magnetic Log,358,334,98,67.6,699.0,790,-236
+M/E #2 Fuel Inj. Pump,290,375,125,54.2,612.0,790,-250
+M/E #5 Fuel Inj. Pump,293,361,130,53.3,617.0,784,-231
+Exh. Gas Economizer,341,336,103,63.8,704.0,780,-233
+#1 Cargo Hold,352,326,101,32.9,722.0,779,-225
+M/E #3 Fuel Inj. Pump,288,364,127,54.0,623.0,779,-237
+M/E Exhaust Gas Pipe,332,339,105,69.7,675.0,776,-234
+M/E #4 Fuel Inj. Pump,289,358,127,52.3,613.0,774,-231
+#2 Mooring winch forecastle  (P),192,448,134,39.2,697.0,774,-314
+M/E #1 Fuel Inject Valve,331,329,110,82.1,584.0,770,-219
+M/E #5 Fuel Inject Valve,330,334,104,79.0,599.0,768,-230
+M/E #2 Fuel Inject Valve,333,321,111,79.2,594.0,765,-210
+#2 Cargo Hold,334,325,102,33.0,712.0,761,-223
+M/E #6 Fuel Inj. Pump,282,344,130,52.3,597.0,756,-214
+M/E #4 Fuel Inject Valve,337,317,101,78.0,606.0,755,-216
+M/E Cam Shaft w/ Drive,310,348,97,82.2,563.0,755,-251
+#1H.F.O. Transfer Pump Motor,317,333,101,59.0,672.0,751,-232
+D.O. Trans. Pump,326,327,98,76.0,664.0,751,-229
+M/E #3 Fuel Inject Valve,316,328,98,79.7,584.0,742,-230
+M/E #4 Crank Pin,319,333,86,77.2,615.0,738,-247
+M/E #3 Crank Pin,317,328,87,78.7,603.0,732,-241
+M/E #1 Crank Pin,312,319,99,79.7,602.0,730,-220
+M/E #5 Crank Pin,317,323,88,78.8,600.0,728,-235
+M/E #2 Crank Pin,309,322,93,78.4,607.0,724,-229
+Main Sea Water Pump No.1,317,319,88,69.8,633.0,724,-231
+Gyro Compass,173,417,123,59.5,591.0,713,-294
+L.O. Transfer Pump Motor,298,319,92,58.3,637.0,709,-227
+#1H.F.O. Transfer Pump,301,322,85,75.8,616.0,708,-237
+M/E L.O. 2nd Strainer,316,312,79,78.3,568.0,707,-233
+#1 Fresh Water Pump Motor,308,306,82,77.2,549.0,696,-224
+M/E Governor,277,312,98,85.1,552.0,687,-214
+M/E #6 Fuel Inject Valve,291,299,96,79.2,536.0,686,-203
+M/E El. Turning Gear,302,291,92,69.4,574.0,685,-199
+Cooling F.W. Expansion Tank,304,304,76,80.3,592.0,684,-228
+#3 D/G Safety Device,283,305,95,75.3,613.0,683,-210
+#3 D/G Turbo Charger,330,279,70,57.8,522.0,679,-209
+#1 Jacket Cool. FW. Pump,275,308,91,72.6,589.0,674,-217
+#1 M/E L.O. Purifier Motor,293,293,84,76.1,546.0,670,-209
+Emergency Fire Pump Motor,275,306,86,91.7,490.0,667,-220
+Bilge Cargo holds 4 (P),200,336,125,13.5,557.0,661,-211
+Parachute Signal,289,284,88,90.2,579.0,661,-196
+#3 Deck Crane,264,277,102,17.2,569.0,643,-175
+Bilge and Ballast Pump Motor,271,293,77,83.4,511.0,641,-216
+Air Vessel for FO Shut-Off Valve,216,316,107,73.9,564.0,639,-209
+M/E #6 Crank Pin,295,262,81,79.6,535.0,638,-181
+Lifeboats,29,434,174,17.1,590.0,637,-260
+M/E Crankcase and Drive,239,315,83,83.7,511.0,637,-232
+C/R Packaged Air Conditioner,282,273,81,58.7,567.0,636,-192
+laporan bulanan,30,441,159,23.5,356.0,630,-282
+Smoke Signal,275,265,82,92.6,542.0,622,-183
+#1 H.F.O. Purifier Motor,259,281,81,87.0,489.0,621,-200
+M/E #7 Cylinder head,232,297,89,54.1,415.0,618,-208
+#4 Deck Crane,258,254,92,14.0,528.0,604,-162
+#2 D/G Governor,231,295,78,65.0,513.0,604,-217
+Acco Package Air Conditioner,275,252,73,57.8,534.0,600,-179
+Bilge Cargo holds 4 (S),199,291,110,15.8,528.0,600,-181
+E/R #2 Vent Fan,264,258,71,85.2,508.0,593,-187
+M/E #1 Main Bearing,244,269,74,88.5,476.0,587,-195
+M/E #5 Main Bearing,247,259,80,90.3,481.0,586,-179
+M/E #2 Main Bearing,244,264,78,91.2,471.0,586,-186
+E/R #1 Vent Fan,263,257,66,85.2,514.0,586,-191
+M/E #3 Main Bearing,248,260,76,89.4,474.0,584,-184
+#2 H.F.O. Purifier Motor,248,266,69,87.0,462.0,583,-197
+Electric Freezer,250,251,79,93.9,505.0,580,-172
+M/E #4 Main Bearing,244,261,74,91.0,473.0,579,-187
+D.O. Trans. Pump Motor,246,258,71,82.4,490.0,575,-187
+Gas Cutter ,254,248,72,97.0,502.0,574,-176
+M/E #6 Main Bearing,243,257,73,88.5,468.0,573,-184
+#1 D/G Governor,225,274,71,66.4,481.0,570,-203
+Engine Telegraph Logger,252,246,68,93.5,496.0,566,-178
+M/E #7 Fuel Inj. Pump,203,273,88,48.6,444.0,564,-185
+Electric Refrigerator,239,247,76,94.7,490.0,562,-171
+M/E #8 Cylinder head,201,276,84,47.4,405.0,561,-192
+SOPEP,403,118,36,154.8,203.0,557,-82
+M/E #3 Exhaust Valve,253,249,54,46.9,475.0,556,-195
+#2 Fresh Water Pump Motor,235,245,74,90.6,434.0,554,-171
+M/E #5 Exhaust Valve,254,246,50,48.6,477.0,550,-196
+M/E Air Trunk,233,242,73,50.8,498.0,548,-169
+Gas Detector,118,300,129,35.3,503.0,547,-171
+M/E #2 Exhaust Valve,240,250,53,47.7,467.0,543,-197
+#1 Radar Magnetron,219,238,76,32.9,503.0,533,-162
+Bilge Separator Pump Motor,234,237,60,82.3,433.0,531,-177
+M/E #4 Exhaust Valve,247,236,47,48.5,446.0,530,-189
+Waste Oil Incinerator,229,235,65,63.3,466.0,529,-170
+M/E #1 Exhaust Valve,240,237,48,48.6,449.0,525,-189
+F.O./D.O. Pipes/Valves,230,224,71,92.5,462.0,525,-153
+#3 Cargo Hold,236,217,71,32.2,495.0,524,-146
+Electric Cooking Range,215,231,70,87.8,455.0,516,-161
+#2 Jacket Cool. FW. Pump,223,234,59,70.8,452.0,516,-175
+HRP Thruster System Port Side,393,102,18,1.9,449.0,513,-84
+L.O. Pipes/Valves,223,224,65,93.8,446.0,512,-159
+Emergency Switchboard,222,227,58,107.7,418.0,507,-169
+Lub Oil Analys report,269,188,49,96.3,408.0,506,-139
+M/E #6 Exhaust Valve,225,228,41,45.3,427.0,494,-187
+M/E #7 Main Bearing,195,230,66,89.7,393.0,491,-164
+Emergency Bilge Suction,213,210,65,94.5,427.0,488,-145
+HRP Thruster System stb side,371,96,19,1.9,433.0,486,-77
+Pedestal Drill,216,207,61,97.4,421.0,484,-146
+Test Alarm and Trip,53,323,101,42.7,427.0,477,-222
+Time Controller,207,205,61,94.3,410.0,473,-144
+#3 D/G Governor,195,220,56,72.2,395.0,471,-164
+M/E Fuel Inj. Pumps,13,353,103,32.9,382.0,469,-250
+#1 Provision Crane Davit,195,202,69,60.1,414.0,466,-133
+M/E #8 Fuel Inj. Pump,194,202,65,50.5,366.0,461,-137
+#1 G/E L.O. Purifier,214,189,56,36.3,412.0,459,-133
+Bow Thruster,205,204,47,51.4,365.0,456,-157
+Air Con. Unit Fan,199,199,58,85.2,399.0,456,-141
+Main Switchboard,198,203,53,118.9,368.0,454,-150
+Sanitary Equipment,198,189,57,96.9,389.0,444,-132
+M/E Crank Web,186,194,59,131.3,329.0,439,-135
+Battery Life Boat,91,258,89,44.0,381.0,438,-169
+#1 M/E Jacket Fresh Water Cooler/LT cooler,183,201,53,114.6,363.0,437,-148
+M/E #2 Starting Valve,165,198,74,107.9,326.0,437,-124
+M/E #3 Starting Valve,166,205,65,105.8,316.0,436,-140
+Sanitary Space Exh. Fan,199,181,54,84.1,381.0,434,-127
+M/E #7 Piston and Con Rod,186,193,51,58.8,361.0,430,-142
+M/E #1 Starting Valve,155,205,69,103.7,325.0,429,-136
+Air Line/Pipes/Valves,189,184,56,94.0,378.0,429,-128
+M/E #4 Starting Valve,166,202,59,104.7,318.0,427,-143
+M/E #5 Starting Valve,163,203,60,103.5,315.0,426,-143
+#1 L.O. Pump Motor,182,190,53,88.4,335.0,425,-137
+M/E #7 Fuel Inject Valve,184,179,57,71.0,345.0,420,-122
+#2 D/G Air Cooler,185,187,47,124.8,328.0,419,-140
+Water Fog Applicator,181,181,54,92.9,366.0,416,-127
+ Socket Spreader Pontoon ,138,208,67,90.8,349.0,413,-141
+M/E L.O Sump Tank ( C ),180,170,60,116.4,331.0,410,-110
+Fire S. Pump Motor,178,180,48,86.7,320.0,406,-132
+M/E #6 Starting Valve,154,194,57,95.0,309.0,405,-137
+#2 L.O. Pump Motor,174,180,49,85.5,317.0,403,-131
+M/E #1 Cylinder Liner,156,161,86,137.5,219.0,403,-75
+#1 Aux. Boiler Feed Water Pump,172,176,53,68.9,351.0,401,-123
+Air Con. Unit Condenser,186,166,49,94.5,352.0,401,-117
+Standby LO Pump,17,285,97,12.9,336.0,399,-188
+#2 Provision Crane ( S ),168,169,59,21.2,356.0,396,-110
+D.O. Purifier,177,172,45,33.2,357.0,394,-127
+#1 M/E F.O. Circ. Pump Motor,182,172,40,121.0,318.0,394,-132
+#2 D/G Cooling FW Pump,158,182,52,125.0,295.0,392,-130
+Auto-Exchange Telephone System,173,167,51,120.7,322.0,391,-116
+#1 Purif F.O. Heater,175,173,42,119.7,323.0,390,-131
+#2 Radar Magnetron,103,215,71,32.8,366.0,389,-144
+#1 Main Air Vessel,166,175,47,126.9,312.0,388,-128
+#1 D/G Cooling FW Pump,153,177,58,119.6,301.0,388,-119
+#2 Alternator,144,181,58,65.6,303.0,383,-123
+Megger Test of All Electrical Motor,174,164,45,166.9,261.0,383,-119
+M/E #1 Aux. Blower,172,168,40,73.9,334.0,380,-128
+Weather Facsimile Receiver,66,239,75,34.5,354.0,380,-164
+#2 Main Air Vessel,168,171,41,126.9,307.0,380,-130
+#2 Aux. Boiler Feed Water Pump,161,170,48,69.4,336.0,379,-122
+M/E #8 Fuel Inject Valve,161,159,58,66.4,303.0,378,-101
+Purifier Lub. Oil Heater,167,159,45,127.6,300.0,371,-114
+M/E #2 Aux. Blower,164,168,39,75.8,322.0,371,-129
+#1 Alternator,141,179,50,62.6,307.0,370,-129
+Ejector Pump,162,163,44,71.8,322.0,369,-119
+M/E Bearing Clearance,172,150,46,112.3,283.0,368,-104
+M/E #7 Crank Pin,165,157,46,81.9,298.0,368,-111
+#1 Aux. Cool. Sea Water Pump,157,162,48,72.9,325.0,367,-114
+M/E #3 Cylinder Liner,169,146,52,146.2,211.0,367,-94
+#2 M/E F.O.Circ Pump Motor,162,162,42,126.0,301.0,366,-120
+#2 Provision Crane Davit,162,152,45,61.3,326.0,359,-107
+#1 Cam Shaft Bearing,156,158,45,69.1,287.0,359,-113
+Water Sterilizer,147,161,47,92.5,309.0,355,-114
+Drinking Water Pump Motor,161,144,42,77.4,273.0,347,-102
+Water Tight Door,140,151,53,94.2,291.0,344,-98
+"MGPS, ICCP, SHAFT EARTHING",46,190,108,38.9,304.0,344,-82
+M/E F.O. Viscocity Controller,148,148,48,97.0,299.0,344,-100
+M/E #2 Cylinder Liner,160,133,51,131.0,206.0,344,-82
+M/E #4 Cylinder Liner,156,152,34,149.1,205.0,342,-118
+Fresh Water Air Pipes,152,145,45,164.8,268.0,342,-100
+#2 Aux. Cool. Sea Water Pump,154,150,38,76.0,296.0,342,-112
+#1 G/E Fresh Water Cooler,154,142,43,123.5,282.0,339,-99
+Hot Water Circ. Pump,140,151,46,66.0,285.0,337,-105
+#2 Purif F.O. Heater,151,148,38,118.6,279.0,337,-110
+M/E #3 Safety Valve,146,135,56,144.5,222.0,337,-79
+M/E #5 Cylinder Liner,156,141,38,146.8,207.0,335,-103
+M/E Overhead Cain block,139,138,57,36.8,302.0,334,-81
+M/E #8 Main Bearing,136,150,46,88.0,264.0,332,-104
+#2 Cam Shaft Bearing,141,151,39,70.7,272.0,331,-112
+#3 Cam Shaft Bearing,138,154,39,70.3,274.0,331,-115
+#1 L.O. Sludge Tank,151,144,36,91.5,284.0,331,-108
+Marine Growth Preventing System,151,138,41,86.9,289.0,330,-97
+M/E #5 Safety Valve,145,133,52,137.8,219.0,330,-81
+Elect. Motor E/R #1 Vent Fan,154,136,38,152.0,258.0,328,-98
+M/E #4 Safety Valve,144,126,58,150.2,214.0,328,-68
+M/E #2 Safety Valve,130,134,63,139.3,211.0,327,-71
+M/E Oil Mist Detector,144,146,36,94.5,282.0,326,-110
+#1 F.O. Sludge Tank,148,138,39,92.5,278.0,325,-99
+Electric Welder,141,137,47,186.1,247.0,325,-90
+Purifier Space Exh. Fan,143,138,43,84.7,282.0,324,-95
+#7 Cam Shaft Bearing,140,142,40,66.7,267.0,322,-102
+A/C Split Bridge,59,196,66,91.0,262.0,321,-130
+M/E #1 Safety Valve,123,133,64,145.7,220.0,320,-69
+S.W./F.W. Pipes/Valves,131,142,46,149.2,255.0,319,-96
+#5 Cam Shaft Bearing,134,144,39,75.8,261.0,317,-105
+Safety Device,33,221,62,34.4,288.0,316,-159
+#4 Cam Shaft Bearing,132,143,39,75.3,253.0,314,-104
+Elect. Motor E/R #2 Vent Fan,144,134,35,155.0,240.0,313,-99
+M/E #6 Cylinder Liner,137,129,45,142.1,195.0,311,-84
+Fuel Oil and Diesel Oil Air Pipe,136,139,35,183.0,230.0,310,-104
+#6 Cam Shaft Bearing,133,139,37,74.1,255.0,309,-102
+Fire/G.S.Line,129,138,41,185.0,236.0,308,-97
+M/E #6 Safety Valve,130,122,55,139.1,207.0,307,-67
+Electric Motor Bilge Pump,130,134,40,180.3,233.0,304,-94
+A/C Split ECR,57,189,57,89.1,249.0,303,-132
+A/C Split Mess Room,59,188,56,91.1,251.0,303,-132
+#3 D/G Cooling FW Pump,112,137,44,125.5,219.0,293,-93
+#8 Cam Shaft Bearing,125,128,39,63.8,246.0,292,-89
+Ejector Pump Motor,127,129,34,88.5,233.0,290,-95
+#3 Alternator,113,144,33,64.7,231.0,290,-111
+A/C Split Capt Room,51,180,58,93.9,238.0,289,-122
+A/C split C/E Room,45,178,64,94.8,235.0,287,-114
+#2 Mooring Winch,128,117,41,177.1,219.0,286,-76
+#1 Provision Crane ( P ),124,121,37,22.9,256.0,282,-84
+M/E #1 Intake Valves,153,117,12,8.1,271.0,282,-105
+M/E #2 Intake Valves,151,116,13,8.3,272.0,280,-103
+#9 Cam Shaft Bearing,120,122,38,58.0,244.0,280,-84
+M/E #4 Intaxe Valves,149,114,16,8.2,270.0,279,-98
+M/E #3 Intaxe Valves,147,116,14,8.4,271.0,277,-102
+M/E #7 Starting Valve,107,135,34,92.6,217.0,276,-101
+M/E #5 Intaxe Valves,147,113,14,8.4,267.0,274,-99
+M/E #6 Intaxe Valves,147,113,13,8.4,267.0,273,-100
+M/E El. Turning Gear Motor,115,115,42,150.4,211.0,272,-73
+#1 D/G Air Cooler,117,118,37,178.5,196.0,272,-81
+Transformer-Emg. Use 1,119,115,33,186.2,204.0,267,-82
+Stuffing Box,101,128,35,32.0,242.0,264,-93
+Attach Lo pump Main engine S,103,134,26,63.6,188.0,263,-108
+G/E F.O. Viscocity Controller,112,117,32,96.9,224.0,261,-85
+M/E #8 Crank Pin,106,119,34,79.5,212.0,259,-85
+M/E #8 Piston and Con Rod,108,122,28,73.1,209.0,258,-94
+M/E #8 Starting Valve,97,123,37,80.9,215.0,257,-86
+Bilge Line/Pipes/Valves,112,112,32,186.1,197.0,256,-80
+M/E #1 Cyl. Lubricator,119,102,32,110.7,192.0,253,-70
+C/H Bilge Non return valve 2P,115,115,21,190.5,184.0,251,-94
+Fire Pump,56,151,40,39.5,217.0,247,-111
+C/H Bilge Non Return Valve 1P,111,117,19,193.3,180.0,247,-98
+Hot Water Circ. Pump Motor,107,106,33,96.3,188.0,246,-73
+Safety Equipment Certificate,99,117,30,222.5,160.0,246,-87
+Free fall life boat engine,42,146,57,12.2,225.0,245,-89
+C/H Bilge Non Return Valve 1S,110,115,20,194.4,179.0,245,-95
+Air Con. Plant Compressor,100,110,33,149.8,190.0,243,-77
+Air Con. Unit Fan Motor,102,115,25,146.7,194.0,242,-90
+M/E #7 Cylinder Liner,108,103,31,125.3,151.0,242,-72
+#2 M/E L.O. Purifier,102,105,34,23.2,225.0,241,-71
+C/H Bilge Non Return Valve 2S,109,110,22,194.4,177.0,241,-88
+International Oil Pollution Prevention Certificate,97,118,25,223.6,155.0,240,-93
+International Load Line Certificate,99,110,30,228.5,155.0,239,-80
+Safety Construction Certificate,98,111,30,228.7,154.0,239,-81
+Safety Radio Certificate,95,111,28,221.3,151.0,234,-83
+Bilge Cargo holds 5 (P),55,135,43,20.2,214.0,233,-92
+Fresh Water Generator,98,99,35,113.8,195.0,232,-64
+M/E #1 Alpha Lubricator,103,95,33,17.1,212.0,231,-62
+#2 D/G Lub. Oil Cooler,84,110,36,160.8,160.0,230,-74
+M/E #2 Alpha Lubricator,106,93,29,16.9,212.0,228,-64
+ISM. (Owner s Arrangement),95,108,25,232.5,144.0,228,-83
+Air Con. Plant Compressor Motor,99,104,25,154.4,177.0,228,-79
+#1 D/G Lub. Oil Cooler,83,105,38,165.5,155.0,226,-67
+M/E #5 Alpha Lubricator,107,92,27,17.0,212.0,226,-65
+M/E #2 Cyl. Lubricator,107,86,32,113.2,167.0,225,-54
+M/E #4 Alpha Lubricator,107,91,26,17.0,211.0,224,-65
+D.O. Purifier Motor,95,103,23,52.6,186.0,221,-80
+Scavenging Box Drain Tank,90,96,35,88.3,183.0,221,-61
+C/Shaft L.O. Strainer,97,99,25,92.8,195.0,221,-74
+International Tonnage Certificate,95,104,21,222.5,141.0,220,-83
+Cert. Of Compliance for Sewage Pollution Prevention,97,96,26,235.1,140.0,219,-70
+Eductor System,56,113,49,9.4,210.0,218,-64
+M/E #1 Aux. Blower Motor,79,115,21,17.4,153.0,215,-94
+Slip Ring,63,96,55,65.3,149.0,214,-41
+M/E #3 Alpha Lubricator,95,92,27,17.2,203.0,214,-65
+#2 G/E F.O. Circ. Pump Motor,90,94,28,120.8,172.0,212,-66
+Cooling Fresh Water Pump Attachment,61,116,32,91.8,150.0,209,-84
+#4 Cargo Hold,85,95,29,31.1,195.0,209,-66
+M/E #7 Safety Valve,88,87,33,120.2,150.0,208,-54
+#1 G/E F.O. Circ. Pump Motor,91,91,26,123.0,172.0,208,-65
+Void Space Tank,91,90,26,184.7,157.0,207,-64
+Gear Box,74,102,30,95.2,163.0,206,-72
+Engine Control Console,94,94,18,190.1,157.0,206,-76
+#3 D/G Lub. Oil Cooler,72,100,33,159.7,147.0,205,-67
+M/E #2 Aux. Blower Motor,78,107,20,17.1,133.0,205,-87
+Waste Oil Tank,87,89,26,182.3,157.0,202,-63
+Bilge Well No.3,95,80,26,31.4,191.0,201,-54
+M/E #6 Alpha Lubricator,95,81,25,15.1,185.0,201,-56
+Fire Alarm,59,103,37,38.0,183.0,199,-66
+Bilge Well No.2,92,79,27,32.0,187.0,198,-52
+Air Conditioning Plant,89,87,21,176.1,147.0,197,-66
+M/E #8 Cylinder Liner,85,86,25,111.1,129.0,196,-61
+#3 D/G Air Cooler,89,82,24,189.4,135.0,195,-58
+Stuffing Box Oil Leak each Cylinder,86,85,23,30.2,182.0,194,-62
+Cooling Sea Water Pump Attachment,66,100,28,83.4,143.0,194,-72
+M/E #8 Safety Valve,86,77,30,111.3,144.0,193,-47
+A/C Split C/O Room,38,121,34,95.1,153.0,193,-87
+ #3 Main Air Comp. ,76,90,26,15.8,158.0,192,-64
+Emergency Air Compressor,71,88,33,134.5,153.0,192,-55
+Gear Box Pump,65,97,30,57.5,166.0,192,-67
+L.O Drain Tank (P),87,82,20,87.3,165.0,189,-62
+Deck Air Compressor,35,113,38,34.0,173.0,186,-75
+A/C Split 2nd/E Room,36,113,36,96.1,148.0,185,-77
+Main Air Distributor,58,101,26,121.2,129.0,185,-75
+C/H Bilge Non Return Valve 3S,84,82,16,199.1,128.0,182,-66
+Cert. Of Inspection of Crew Accomm.,78,83,18,231.4,111.0,179,-65
+C/H Bilge Non Return Valve 3P,80,81,18,196.1,131.0,179,-63
+Distillate Pump Motor,79,81,17,83.2,139.0,177,-64
+M/E Reversing Device,74,76,24,187.5,133.0,174,-52
+Fore Peak Tank ( C ),74,78,22,245.0,111.0,174,-56
+M/E #9 Main Bearing,71,81,21,88.0,124.0,173,-60
+Purifier Space Exh. Fan Motor,76,73,22,151.6,138.0,171,-51
+F.O. Drain Tank (S),69,73,28,133.1,134.0,170,-45
+DPI Perfomance,17,56,97,69.4,111.0,170,41
+Engine Bow Thruster,79,72,18,13.0,125.0,169,-54
+Stuffing Box L.O. Drain Tank,76,73,20,119.2,139.0,169,-53
+Inmarsat C Printer 1,77,70,22,30.4,160.0,169,-48
+Rescue Boat Davit,0,90,77,16.7,141.0,167,-13
+Cascade Tank,67,81,17,144.2,131.0,165,-64
+#3 W.B.T.(S),66,70,25,273.4,99.0,161,-45
+#3 W.B.T.(P),63,73,25,262.9,101.0,161,-48
+#2 Boiler Water Circ Pump Motor,65,77,16,81.8,131.0,158,-61
+Steam Pipes/Valves,70,71,16,186.3,119.0,157,-55
+Air Conditioner SPLIT,50,79,28,93.2,130.0,157,-51
+#1 Boiler Water Circ Pump Motor,66,72,19,87.8,124.0,157,-53
+#5 Con-Rod Bolts,79,53,24,163.7,87.0,156,-29
+#1 M/E F.O. Circ. Pump,68,67,21,274.0,90.0,156,-46
+Emergency Gen. Alternator,70,67,19,65.1,135.0,156,-48
+Starting Distributor ME,59,65,32,135.9,113.0,156,-33
+Public Addressor,70,68,17,359.6,84.0,155,-51
+Life Boat Winch Port,59,69,25,300.5,90.0,153,-44
+Flexible Couplings,58,69,25,124.9,117.0,152,-44
+#2 W.B.T.(S),59,65,27,275.0,93.0,151,-38
+Main Air Comp. F.W. Cooler,68,61,21,181.3,116.0,150,-40
+Common Battery Telephone,68,69,13,327.8,83.0,150,-56
+S-VDR,63,64,22,292.2,90.0,149,-42
+GPS,58,72,19,32.8,141.0,149,-53
+#2 W.B.T.(P),58,63,26,281.8,88.0,147,-37
+#2 F.O. Sludge Tank,65,64,18,89.6,126.0,147,-46
+#4 Con-Rod Bolts,76,49,21,171.9,86.0,146,-28
+#2 M/E F.O.Circ Pump,62,64,19,291.3,81.0,145,-45
+#6 Con-Rod Bolts,73,56,16,168.9,90.0,145,-40
+Provision Crane,47,72,26,36.8,129.0,145,-46
+#1 Con-Rod Bolts,69,51,24,170.9,87.0,144,-27
+Main Engine,65,67,7,22.2,78.0,139,-60
+M/E #3 Indicator Valve,61,60,18,279.5,75.0,139,-42
+#3 Con-Rod Bolts,66,51,21,167.2,84.0,138,-30
+M/E #6 Indicator Valve,57,55,26,269.6,77.0,138,-29
+Life Boat Winch Stbd,52,63,22,302.4,81.0,137,-41
+M/E #2 Indicator Valve,54,60,23,296.7,75.0,137,-37
+Bilge Well No.1,60,57,19,32.1,126.0,136,-38
+free fall life boat davits,23,48,64,31.3,118.0,135,16
+G/E Purifier Lub.Oil Heater,59,56,20,130.0,111.0,135,-36
+#2 Con-Rod Bolts,66,46,23,159.9,82.0,135,-23
+M/E #1 Indicator Valve,59,52,24,296.5,73.0,135,-28
+#1 G/E L.O. Purifier Motor,63,61,10,90.0,106.0,134,-51
+M/E #4 Indicator Valve,57,53,23,298.6,70.0,133,-30
+Ballast Pump No 1,53,62,17,53.0,97.0,132,-45
+SSAS Alert Unit,58,61,13,330.5,74.0,132,-48
+M/E #5 Indicator Valve,59,52,20,320.6,69.0,131,-32
+Bilge Cargo holds 5 (S),21,83,27,33.5,123.0,131,-56
+M/E #7 Exhaust Valve,40,67,24,85.2,104.0,131,-43
+M/E Crankcase Air Breathers Pipe and Valve,40,81,10,271.2,59.0,131,-71
+Rescue boat/life crane,34,71,25,29.5,116.0,130,-46
+Fire Pipe Line,73,56,0,355.5,58.0,129,-56
+Aux. Condenser,56,55,16,179.5,97.0,127,-39
+Portable Crane,0,98,29,96.6,97.0,127,-69
+M/E Turbo Charger No.2,41,63,22,30.3,103.0,126,-41
+Server PMS,49,60,17,33.3,117.0,126,-43
+Cargo Deck,64,49,13,30.8,116.0,126,-36
+Fwd Air Whistle,58,56,12,368.5,68.0,126,-44
+F.W. Hydrophore Tank,57,57,11,361.1,68.0,125,-46
+Air Horn with Heater,56,57,12,369.4,68.0,125,-45
+M/E #2 F.O. Booster Pump,51,56,17,275.0,65.0,124,-39
+Bunker Line Pressure Testing,53,57,13,232.9,82.0,123,-44
+Aft Peak Tank (C),48,57,18,285.0,72.0,123,-39
+M/E #1 F.O. Booster Pump,52,55,16,283.0,65.0,123,-39
+#4 W.B.T.(P),47,53,22,257.0,77.0,122,-31
+Air vent head WBT 2 Stbd,55,57,9,361.8,64.0,121,-48
+M/E #10 Main Bearing,46,60,15,77.1,84.0,121,-45
+Fire Line pressure testing,45,56,20,246.0,82.0,121,-36
+M/E Fuel Oil Heater 1,52,54,14,358.4,64.0,120,-40
+M/E #1 Turbo Charger,41,51,28,58.7,91.0,120,-23
+Air Vent Head WBT 2 Port,57,58,5,368.4,62.0,120,-53
+Bilge Tank,55,54,11,365.5,65.0,120,-43
+#2 D/G MDO Feed Pump,52,65,2,299.2,65.0,119,-63
+Forced Draft Fan Motor,58,51,8,154.2,91.0,117,-43
+Air Vent Head WBT 3 Stbd,55,56,5,364.2,58.0,116,-51
+Fresh / Sanitary Pipes / Valves,55,52,9,362.4,61.0,116,-43
+#4 W.B.T.(S),46,51,18,274.8,72.0,115,-33
+Air Vent Head WBT 3 Port,54,56,4,368.5,57.0,114,-52
+#1 Genset,39,60,14,19.3,69.0,113,-46
+springkler system,51,48,13,102.6,93.0,112,-35
+#1 D/G MDO Feed Pump,45,58,9,310.2,62.0,112,-49
+Bilge Oil Tank,49,51,12,346.4,62.0,112,-39
+Aux. Boiler,11,33,68,19.1,93.0,112,35
+Cyl Oil Trans. Pump,32,65,14,6.9,104.0,111,-51
+M/E L.O Sump Tank ( S ),45,50,15,55.9,83.0,110,-35
+M/E Thrust Bearing,55,37,17,366.2,43.0,109,-20
+#2 L.O. Pump for M/E / Discharge Pump,0,86,22,110.2,59.0,108,-64
+#2 Main Air Comp. Motor,42,48,17,82.4,80.0,107,-31
+Transformers 1,39,53,14,155.6,79.0,106,-39
+Hyd. Pump Units (Deck),46,43,15,319.1,58.0,104,-28
+Auxiliary Air Vessel,47,49,7,366.8,53.0,103,-42
+Standby LO Pump Motor,20,56,27,112.2,60.0,103,-29
+#1 W.B.T.(C),46,41,15,212.6,65.0,102,-26
+Main Sea Water Pump Motor M/E No. 1,29,53,19,54.7,83.0,101,-34
+Exhaust Manifold,24,54,23,42.1,83.0,101,-31
+#3 F.O. Sludge Tank,43,45,13,90.4,88.0,101,-32
+Wire and Sheave,50,40,11,86.3,86.0,101,-29
+Air Vent Head WBT 1 Port,48,46,6,361.3,50.0,100,-40
+D.W. Hydrophore Tank,44,47,9,371.3,53.0,100,-38
+Fire Bilge and Ballast Pump,41,43,15,75.9,49.0,99,-28
+#2 D/G L.O. Priming Pump,45,39,15,297.6,47.0,99,-24
+#1 Jacket Cool. FW. Pump Motor,18,60,21,107.6,39.0,99,-39
+C/H Bilge Non Return Valve 4P,44,45,10,202.1,72.0,99,-35
+C/H Bilge Non Return Valve 4S,44,45,10,203.9,71.0,99,-35
+M/E #3 Cross Head Bearing,52,37,10,261.2,59.0,99,-27
+M/E #5 Cross Head Bearing,53,37,9,249.5,56.0,99,-28
+#2 D/G Lub. Oil Pump,41,47,10,231.8,32.0,98,-37
+#1 Main Air Comp. Motor,40,41,15,96.0,66.0,96,-26
+Air Vent Head WBT 1 Stbd,45,44,7,365.8,49.0,96,-37
+M/E #4 Cross Head Bearing,51,35,10,239.4,56.0,96,-25
+Air. Cond. Cool Sea Water Pump Motor,42,44,9,145.8,72.0,95,-35
+M/E #1 Cross Head Bearing,43,43,9,236.8,53.0,95,-34
+#7 Con-Rod Bolts,44,40,11,155.2,58.0,95,-29
+#1 D/G L.O. Priming Pump,36,42,16,296.6,46.0,94,-26
+M/E Main Starting Valve,41,44,9,307.3,48.0,94,-35
+M/E #2 Cross Head Bearing,47,38,9,255.3,53.0,94,-29
+#2 Genset,38,47,8,23.6,64.0,93,-39
+#1 L.O. Pump for M/E / Suction Pump,0,75,17,136.6,43.0,92,-58
+#8 Con-Rod Bolts,40,42,10,149.7,61.0,92,-32
+Battery Power DC ,17,55,20,123.5,57.0,92,-35
+#1 D/G Lub. Oil Pump,38,39,14,429.0,29.0,91,-25
+Fire and G.S Pump,33,41,15,34.8,81.0,89,-26
+Air Vent Head SWBT 2 Stbd,40,42,6,367.4,44.0,88,-36
+Air Vent Head SWBT 2 Port,39,43,5,361.7,44.0,87,-38
+#5 Cargo Hold,36,38,12,30.6,81.0,86,-26
+Drinking Water Pipes/Valves,39,38,8,356.1,45.0,85,-30
+#3 D/G L.O. Priming Pump,37,38,10,341.3,40.0,85,-28
+#3 D/G Lub. Oil Pump,40,34,11,549.9,26.0,85,-23
+#3 D/G MDO Feed Pump,36,44,4,309.1,46.0,84,-40
+#2 L.O. Sludge Tank,36,37,11,88.9,71.0,84,-26
+Barometer,45,30,9,37.0,22.0,84,-21
+HLA Cargo Tank 2S,0,51,32,10.7,79.0,83,-19
+HLA Cargo Tank 2P,0,51,32,10.8,79.0,83,-19
+THERMAL OIL CICULATING PUMP NO. 1,25,46,12,46.6,67.0,83,-34
+Air Vent Head SWBT 3 Port,40,36,7,370.8,40.0,83,-29
+THERMAL OIL CICULATING PUMP NO. 2,22,47,14,48.9,70.0,83,-33
+M/E #2 Turbo Charger,38,33,11,47.9,61.0,82,-22
+Air Vent Head SWBT 3 Stbd,35,39,8,349.0,43.0,82,-31
+#2 G/E Fresh Water Cooler,36,35,11,129.4,66.0,82,-24
+Winch,36,33,12,175.8,56.0,81,-21
+M/E #1 Air Cooler,27,43,11,105.9,63.0,81,-32
+Elect. Motor Sanitary Space Exh. Fan,44,30,7,76.1,31.0,81,-23
+#1 G/E F.O. Circ. Pump,35,36,10,298.4,49.0,81,-26
+HLA Cargo Tank 3P,0,51,29,11.0,77.0,80,-22
+HLA Cargo Tank 3S,0,51,29,11.3,75.0,80,-22
+Battery A/E 1,14,44,21,81.8,61.0,79,-23
+Air Vent Head APT Stbd,35,38,6,343.0,40.0,79,-32
+M/E Air Cooler Cleaning Pump Motor,39,32,8,154.8,63.0,79,-24
+M/E Tie Rods,36,34,9,431.3,31.0,79,-25
+Accommodation,39,35,4,Belum Cukup Data,,78,-31
+Air Vent Head APT Port,33,37,8,351.2,40.0,78,-29
+HLA Pump Room,0,52,26,10.5,75.0,78,-26
+Air Vent Head WBT 4 Port,35,39,4,368.0,39.0,78,-35
+Pneumatic Manuvering System,29,25,24,159.9,25.0,78,-1
+#5 W.B.T.(P),33,35,10,264.6,47.0,78,-25
+Emergency Fire Pumps,27,40,11,12.8,70.0,78,-29
+#2 G/E F.O. Circ. Pump,35,34,8,302.7,46.0,77,-26
+M/E# 3L Piston,44,26,7,44.9,70.0,77,-19
+M/E Jacket FW Warm-up Heater,39,32,5,360.5,37.0,76,-27
+M/E# 1L Piston,41,26,9,41.5,71.0,76,-17
+Air Vent Head SWBT 1 Stbd,36,36,4,361.2,38.0,76,-32
+G/E L.O. Overflow Tank,35,33,7,150.4,55.0,75,-26
+#3 G/E Fresh Water Cooler,30,34,11,118.0,62.0,75,-23
+M/E# 2L Piston,41,28,6,43.0,68.0,75,-22
+Attach Lo pump Main engine P,28,38,9,119.2,51.0,75,-29
+Air Vent Head WBT 4 Stbd,34,37,3,361.1,37.0,74,-34
+Life Boat Port Side Engine,3,40,31,8.3,62.0,74,-9
+Air Vent Head SWBT 1 Port,35,36,3,362.2,37.0,74,-33
+#2 L.O. Pump for M/E,74,0,0,69.8,29.0,74,0
+M/E #5L Piston,42,24,7,43.8,67.0,73,-17
+#4 D/G Engine,32,28,12,19.2,44.0,72,-16
+Lube Oil System,35,33,4,23.7,66.0,72,-29
+M/E# 4L Piston,40,26,6,43.6,67.0,72,-20
+M/E #6 Cross Head Bearing,41,24,6,263.1,40.0,71,-18
+#1 Camshaft L.O. Pump Motor,25,28,18,177.9,48.0,71,-10
+Main Sea Water Pump Motor M/E No. 2,21,37,13,79.4,60.0,71,-24
+M/E #6L Piston,36,27,8,44.2,64.0,71,-19
+Air Vent Head FOT.1 Port,29,36,5,360.5,35.0,70,-31
+Air Vent Head FOT.1 Stbd,30,36,4,373.6,34.0,70,-32
+M/E Crankcase Relief Valves,30,26,14,243.1,10.0,70,-12
+Cooling Water System,2,49,19,21.1,64.0,70,-30
+#5 W.B.T.(S),30,30,9,267.3,42.0,69,-21
+Transformers 2,19,36,14,200.6,45.0,69,-22
+Batteries ,34,27,8,67.8,58.0,69,-19
+M/E #2B Crank Pin,31,33,5,62.7,56.0,69,-28
+#1 M/E L.O Pump,14,37,18,67.6,58.0,69,-19
+Air Vent Head FWT Port,33,30,6,366.9,36.0,69,-24
+#1 Fresh W. Tank (P),23,37,8,220.5,12.0,68,-29
+Sludge Pump,29,27,12,174.2,14.0,68,-15
+#1 W.B.T.(P),29,30,9,270.5,40.0,68,-21
+M/E #6B Crank Pin,30,32,6,58.0,59.0,68,-26
+M/E Stuffing Box Drain Pump Motor,30,29,8,148.7,53.0,67,-21
+M/E Fuel Oil Heater 2,29,33,4,343.0,35.0,66,-29
+M/E #5B Crank Pin,32,29,5,64.3,55.0,66,-24
+#1 W.B.T.(S),26,28,12,261.3,40.0,66,-16
+Air Vent Head FWT Stbd,32,29,5,367.3,34.0,66,-24
+L.O. Transfer Pump,24,34,8,30.1,27.0,66,-26
+M/E #1 Fuel Injector,25,27,13,80.7,56.0,65,-14
+#2 M/E L.O Pump,9,37,19,61.5,54.0,65,-18
+Sea Water Pump Motor for Trim,29,28,8,185.3,48.0,65,-20
+#1 Fresh W. Tank (S),25,31,9,241.8,15.0,65,-22
+Battery A/E 2,7,43,15,97.4,48.0,65,-28
+Tank,32,24,7,97.2,54.0,63,-17
+Luffing Pump No. 1,16,25,22,82.2,36.0,63,-3
+M/E #4B Crank Pin,29,30,4,64.4,52.0,63,-26
+#1 L.O. Pump for M/E,63,0,0,52.4,16.0,63,0
+M/E #3B Crank Pin,31,26,5,63.1,54.0,62,-21
+Drinking Water Hyd. Unit,29,27,6,364.5,30.0,62,-21
+Air Dryers,30,24,7,84.3,54.0,61,-17
+Camshaft L.O.Cooler,29,26,6,182.2,44.0,61,-20
+#2 M/E LO Cooler,21,32,8,108.7,46.0,61,-24
+Bilge Pump,25,27,9,64.0,46.0,61,-18
+#1 Main Cool S.W Pump,15,38,8,46.3,50.0,61,-30
+Slewing Pump No. 1,16,25,19,90.9,33.0,60,-6
+#2 M/E L.O. Purifier Motor,29,26,5,76.9,53.0,60,-21
+Hoisting Pump No. 1,16,24,20,97.6,31.0,60,-4
+M/E #2 Fuel Injector,25,26,9,80.6,51.0,60,-17
+Drinking Water Pump,18,32,10,31.3,53.0,60,-22
+M/E #3 Cylinder Cover,33,18,9,111.8,38.0,60,-9
+M/E #6 Fuel Injector,26,26,7,70.2,50.0,59,-19
+M/E #1 Cylinder Cover,33,19,7,96.7,42.0,59,-12
+Battery A/E 3,5,42,12,81.6,46.0,59,-30
+M/E #4 Fuel Injector,26,22,10,73.8,50.0,58,-12
+Air Vent Head DOT.1 Port,24,29,5,371.9,28.0,58,-24
+#2 Jacket Cool. FW. Pump Motor,18,29,11,121.9,16.0,58,-18
+M/E #5 Cylinder Cover,36,16,6,109.0,37.0,58,-10
+M/E #3 Fuel Injector,24,25,9,80.1,47.0,58,-16
+M/E #7 Indicator Valve,22,27,9,337.5,31.0,58,-18
+Crankcase inspection AE I,24,26,7,104.2,47.0,57,-19
+Heeling Tank (S),23,27,7,280.6,33.0,57,-20
+"Fire, Bilge and G.S Pump",17,27,13,123.9,26.0,57,-14
+Inmarsat C Printer 2,25,24,8,30.1,54.0,57,-16
+L.O. Coolers,25,22,10,316.7,33.0,57,-12
+M/E #5 Fuel Injector,23,25,9,73.0,49.0,57,-16
+Fire Fighting System,28,24,5,Belum Cukup Data,,57,-19
+Fire and Bilge Pump,22,24,10,31.5,52.0,56,-14
+C/H Bilge Non Return Valve 5P,27,24,5,226.4,36.0,56,-19
+#2 D/G Cooling SW Pump,26,23,7,125.0,42.0,56,-16
+G/E L.O. Storage Tank,21,29,5,238.0,2.0,55,-24
+Air Vent Head DOT.1 Stbd,25,26,4,369.3,29.0,55,-22
+M/E #2 Cylinder Cover,31,17,7,103.8,39.0,55,-10
+M/E #4 Cylinder Cover,34,14,7,109.5,38.0,55,-7
+Air Vent Head FPT Center,29,24,2,330.4,26.0,55,-22
+F.O. Overflow Tank,19,30,6,470.0,1.0,55,-24
+L.O. Storage Tank,22,28,5,471.0,1.0,55,-23
+Emergency Gen. Set,0,39,15,93.5,40.0,54,-24
+C/H Bilge Non Return Valve 5S,26,24,4,224.6,36.0,54,-20
+M/E #6 Cylinder Cover,30,15,8,105.5,39.0,53,-7
+Stuffing Box #1,27,18,8,312.8,20.0,53,-10
+Stuffing box #3,17,31,5,238.8,17.0,53,-26
+Stuffing Box #5,28,20,5,214.4,13.0,53,-15
+Heavy Oil Settling Tank,17,28,8,235.5,4.0,53,-20
+M/E #1B Crank Pin,25,24,4,80.3,43.0,53,-20
+D.O. Service Tank,26,20,7,278.0,2.0,53,-13
+#1 D/G Cooling SW Pump,22,26,4,112.8,38.0,52,-22
+Heeling Tank (P),22,24,6,307.4,29.0,52,-18
+Stuffing Box Oil Leak #1,17,26,9,31.9,49.0,52,-17
+#2 Camshaft L.O. Pump Motor,23,22,6,176.7,40.0,51,-16
+Setting cyl oil,19,24,8,92.1,39.0,51,-16
+Stuffing Box #2,21,25,5,190.0,17.0,51,-20
+#2 Main Cool S.W Pump,11,33,7,41.5,40.0,51,-26
+L.O. Purifier Heaters,17,23,10,79.0,43.0,50,-13
+Stern Tube L.O Pump No. 1,8,31,11,32.9,41.0,50,-20
+Rubber Hose,24,21,5,95.7,43.0,50,-16
+CPP Remote Control System,23,21,5,99.8,42.0,49,-16
+Heavy Oil Service Tank,16,27,6,195.5,2.0,49,-21
+A/C Split ECR Port,5,32,12,91.0,41.0,49,-20
+Cam 2B,4,38,7,37.5,38.0,49,-31
+Crankcase Inspection AE II,18,23,8,107.8,41.0,49,-15
+Stern Tube L.O Pump No. 2,8,30,10,31.0,42.0,48,-20
+Vibration Damper,24,20,4,48.4,28.0,48,-16
+Cyl Oil Trans. Pump Motor,17,24,7,66.2,44.0,48,-17
+#2 Void Space Tank (P) ,18,23,7,177.2,36.0,48,-16
+#1 Void Space Tank (P) ,19,22,6,182.9,35.0,47,-16
+E/R #3 Vent Fan,20,21,6,90.7,40.0,47,-15
+Cam 5B,3,37,7,35.6,40.0,47,-30
+#2 Void Space Tank (S) ,18,22,7,180.0,36.0,47,-15
+M/E #1 Piston,20,20,6,86.1,38.0,46,-14
+M/E #3 Piston,18,20,8,110.8,37.0,46,-12
+Marine Radars,15,23,8,34.8,43.0,46,-15
+#1 Void Space Tank (S) ,19,21,6,183.0,34.0,46,-15
+M/E #8 Indicator Valve,19,19,8,281.6,29.0,46,-11
+M/E #2 Piston,20,19,7,103.5,37.0,46,-12
+#2 S.W.B.T.(P),18,20,7,221.1,30.0,45,-13
+HLA Cargo Tank No.1C,0,31,14,8.9,42.0,45,-17
+Air Vent Head APT Center,21,19,5,331.3,23.0,45,-14
+Hyd. Oil. Cyl. and Locking Pin,19,23,3,103.0,37.0,45,-20
+HLA Slop Tank,0,30,14,8.9,42.0,44,-16
+M/E #4 Piston,22,16,6,86.3,34.0,44,-10
+M/E #8 Exhaust Valve,20,20,3,127.8,35.0,43,-17
+Air Vent Head SWBT 4 Stbd,18,22,3,363.0,21.0,43,-19
+#2 S.W.B.T.(S),17,21,5,229.7,29.0,43,-16
+Main Pump No. 2,13,24,6,69.7,32.0,43,-18
+A/C Split ECR Starboard,5,28,10,102.9,36.0,43,-18
+Cam 4A,4,32,7,35.7,40.0,43,-25
+#6 CamShaft  Bearing,21,15,6,119.8,34.0,42,-9
+Control Stand and Limit Switch,22,15,5,94.4,36.0,42,-10
+Cam 2A,4,31,7,37.5,38.0,42,-24
+#1 D/G Crankcase Relief Valves,21,15,5,607.0,1.0,41,-10
+Stuffing Box #4,16,21,4,269.2,12.0,41,-17
+#3 CamShaft  Bearing,20,16,5,120.6,33.0,41,-11
+Main Pump No. 1,12,21,8,75.6,30.0,41,-13
+Cam 1B,4,30,7,37.6,38.0,41,-23
+Cam 1A,4,30,7,37.6,38.0,41,-23
+Cam 4B,4,30,7,37.5,38.0,41,-23
+Air Vent Head SWBT 4 Port,18,21,2,372.6,19.0,41,-19
+#1 Windlass Hyd. Pump,20,15,6,250.5,13.0,41,-9
+Cam 3B,3,30,8,38.6,37.0,41,-22
+Cam 3A,3,31,7,38.5,37.0,41,-24
+Cam 5A,4,30,7,37.5,38.0,41,-23
+Cam 6B,4,30,7,37.4,38.0,41,-23
+Sea Water Service Pump,17,21,3,35.0,1.0,41,-18
+M/E #3 Cyl. Lubricator,20,18,3,132.7,31.0,41,-15
+#2 Windlass Hyd. Pump,18,17,6,280.0,11.0,41,-11
+Cam 6A,4,30,7,37.6,38.0,41,-23
+D.O. Settling Tank,12,23,6,Belum Cukup Data,,41,-17
+#3 Void Space Tank (P),16,19,6,185.0,31.0,41,-13
+#5 CamShaft  Bearing,20,14,6,121.2,33.0,40,-8
+A/C Split Bridge Starboard,2,25,13,105.8,30.0,40,-12
+Oil Burning Equipment,0,28,12,33.8,35.0,40,-16
+#1 CamShaft  Bearing,19,14,7,124.5,32.0,40,-7
+#1 Mooring Winch ,18,17,5,75.5,31.0,40,-12
+E/R #4 Vent Fan,19,17,4,87.2,34.0,40,-13
+#1 S.W.B.T.(P),17,20,3,253.7,25.0,40,-17
+#4 CamShaft  Bearing,20,14,6,121.2,33.0,40,-8
+M/E #5 Piston,16,20,4,89.8,30.0,40,-16
+#2 CamShaft  Bearing,19,15,6,120.3,33.0,40,-9
+F.O./D.O. Purifier Heaters,19,18,3,76.3,36.0,40,-15
+#3 Void Space Tank (S),16,19,5,185.4,30.0,40,-14
+Air Vent Head FPT Port,19,19,2,366.0,20.0,40,-17
+M/E Cyl. Lubricators,13,24,3,147.3,29.0,40,-21
+Air Cooler Chemical Cleaning Tank,18,18,4,356.9,21.0,40,-14
+Transformer-Emg. Use 2,14,19,6,193.7,26.0,39,-13
+M/E #6B Fuel Inject Valve,20,14,5,94.8,32.0,39,-9
+HLA Cargo Tank 1P,0,23,16,13.1,36.0,39,-7
+Ballast Air Pipes,16,16,7,92.5,33.0,39,-9
+Report Overhaul by Workshop,20,10,9,180.5,21.0,39,-1
+#1 Windlass Hyd. Motor,16,16,7,252.5,11.0,39,-9
+M/E #6 Piston,17,18,4,70.9,32.0,39,-14
+#2 D/G Crankcase Relief Valves,20,14,5,418.0,1.0,39,-9
+#1 M/E L.O Pump Motor,13,19,7,112.0,32.0,39,-12
+Stuffing Box #6,13,22,4,217.6,10.0,39,-18
+#3 D/G Crankcase Relief Valves,23,9,6,371.0,1.0,38,-3
+#1 S.W.B.T.(S),16,18,4,270.0,24.0,38,-14
+#1 S/T L.O Pump Motor,11,21,6,65.4,33.0,38,-15
+#7 CamShaft  Bearing,19,14,5,107.6,32.0,38,-9
+HLA Cargo Tank 1S ,0,23,15,13.9,34.0,38,-8
+M/E #5B Fuel Inject Valve,21,12,4,97.2,31.0,37,-8
+#2 S/T L.O Pump Motor,12,19,6,63.0,34.0,37,-13
+Fire S. Pump,16,15,6,257.0,1.0,37,-9
+Crankcase Inspection AE III,16,17,4,106.6,32.0,37,-13
+M/E #2B Fuel Inject Valve,18,14,4,99.9,30.0,36,-10
+Air Vent Head WBT 5 Stbd,17,17,2,373.8,17.0,36,-15
+#1 G/E L.O. Sump Tank,9,25,2,178.5,4.0,36,-23
+M/E L.O Sump Tank ( P ),10,23,3,108.5,16.0,36,-20
+Main Mast ,16,16,4,95.4,31.0,36,-12
+Wash Oil Tank,16,16,4,371.9,19.0,36,-12
+M/E #4B Fuel Inject Valve,18,14,4,100.2,30.0,36,-10
+FW SANITARY PUMP NO.1,13,18,4,46.8,30.0,35,-14
+#8 CamShaft  Bearing,17,14,4,97.4,30.0,35,-10
+Ballast Pump No 2,12,21,2,147.1,14.0,35,-19
+M/E #1B Fuel Inject Valve,18,13,4,114.6,27.0,35,-9
+M/E Hold. Down Bolts,12,20,3,35.0,1.0,35,-17
+F.O./D.O. Heaters,16,16,3,68.6,32.0,35,-13
+Air. Cond. Cool Sea Water Pump,14,18,3,76.9,15.0,35,-15
+A/C Split Bridge Port,1,22,11,93.6,25.0,34,-11
+M/E #3B Cylinder Head,12,15,7,98.3,24.0,34,-8
+M/E #4B Cylinder Head,12,14,8,121.2,20.0,34,-6
+#2 Windlass Hyd. Motor,16,12,6,261.3,11.0,34,-6
+Air Compressors,13,15,6,47.8,30.0,34,-9
+#3 S.W.B.T.(S),15,16,3,268.8,20.0,34,-13
+Calorifier,16,16,2,366.6,18.0,34,-14
+#4 T.S.T (S),13,15,6,168.7,23.0,34,-9
+Ballast Line Pressure Testing,11,19,3,Belum Cukup Data,,33,-16
+#9 CamShaft  Bearing,16,12,5,101.8,29.0,33,-7
+M/E #1B Cylinder Head,13,10,10,128.2,20.0,33,0
+#4 T.S.T (P),13,16,4,163.5,23.0,33,-12
+#3 S.W.B.T.(P),14,15,4,257.4,21.0,33,-11
+Cargo Tank No.3P,1,20,12,41.2,28.0,33,-8
+M/E #5B Cylinder Head,10,12,11,103.8,22.0,33,-1
+Aft Peak Tank (P),13,18,2,307.3,19.0,33,-16
+Cargo Tank No.3S,1,20,12,42.6,27.0,33,-8
+#2 M/E L.O Pump Motor,12,16,5,122.2,24.0,33,-11
+#1 CPP L.O. Pump Motor,16,13,4,148.0,27.0,33,-9
+#1 T.S.T. (S),12,15,5,150.9,24.0,32,-10
+#2 CPP L.O. Pump Motor,14,14,4,159.0,25.0,32,-10
+M/E #7 Cross Head Bearing,20,12,0,259.2,18.0,32,-12
+#2 T.S.T (P),11,16,5,162.4,23.0,32,-11
+#2 G/E L.O. Sump Tank,9,23,0,373.0,1.0,32,-23
+Air Vent Head WBT 5 Port,15,14,3,372.9,15.0,32,-11
+#5 T.S.T (P),13,14,5,161.5,24.0,32,-9
+Air Vent Head FPT Stbd,15,15,2,347.4,17.0,32,-13
+M/E #8 Cylinder Cover,17,11,3,88.8,23.0,31,-8
+Oil Valve,16,12,3,184.0,22.0,31,-9
+#1 T.S.T. (P),13,13,5,159.7,23.0,31,-8
+#3 Main Cool S.W Pump,6,21,4,52.7,24.0,31,-17
+Stern Seal Aft,6,20,5,436.3,3.0,31,-15
+Cargo tank No.2S,1,20,10,42.6,27.0,31,-10
+Main Particulars,15,12,4,31.8,25.0,31,-8
+#3 T.S.T (P),12,15,4,165.0,22.0,31,-11
+#2 H.F.O Transfer pump Motor ,13,13,5,64.8,28.0,31,-8
+#2 T.S.T. (S),11,15,5,169.3,22.0,31,-10
+L.O. Settling Tank,15,11,5,Belum Cukup Data,,31,-6
+#1 Camshaft L.O. Pump,12,16,3,275.8,19.0,31,-13
+Sea Water Service Pump Motor,10,19,2,Belum Cukup Data,,31,-17
+Life Raft Davit - Port,0,18,13,17.6,23.0,31,-5
+#3 T.S.T (S),12,15,4,163.2,23.0,31,-11
+M/E #3B Fuel Inject Valve,17,10,4,118.1,25.0,31,-6
+"Insulation, Panels, Doors",10,15,5,45.1,27.0,30,-10
+Stern Seal Fwd,7,19,4,276.3,3.0,30,-15
+M/E #8 Fuel Injector,12,12,6,59.3,27.0,30,-6
+Compressed Air System,11,14,5,51.0,27.0,30,-9
+Con-Rod Bolts,9,17,4,129.7,22.0,30,-13
+M/E #2B Cylinder Head,9,13,8,117.2,21.0,30,-5
+#1 G/E F.O Booster pump motor,9,15,6,29.3,27.0,30,-9
+Cyl. Oil Storage Tank,11,17,2,Belum Cukup Data,,30,-15
+Cargo Tank No. 2P,1,19,10,42.8,26.0,30,-9
+#2 G/E F.O Booster pump motor,9,16,4,31.6,26.0,29,-12
+#2 Camshaft L.O. Pump,11,14,4,290.4,18.0,29,-10
+#5 T.S.T (S),11,12,6,164.0,22.0,29,-6
+Elect. Motor E/R #3 Vent Fan,13,12,4,169.4,22.0,29,-8
+#3 G/E L.O. Sump Tank,9,19,1,Belum Cukup Data,,29,-18
+M/E #2B Fuel Inj. Pump,12,8,9,93.4,23.0,29,1
+F.W. Pumps,8,14,7,55.9,18.0,29,-7
+M/E #6B Cylinder Head,8,11,10,132.1,18.0,29,-1
+#6 W.B.T.(P),11,14,4,265.2,18.0,29,-10
+M/E #2 Air Cooler,8,17,4,103.0,23.0,29,-13
+#1 F.O. Tank (P),10,16,2,212.0,2.0,28,-14
+#1 F.O. Tank (S),11,14,3,207.8,4.0,28,-11
+Aft Peak Tank (S),10,16,2,316.9,14.0,28,-14
+M/E #7 Cylinder Cover,16,9,3,92.6,24.0,28,-6
+#4 Void Space Tank (P),10,14,4,177.1,21.0,28,-10
+Air vent Head WBT 1 C,14,13,1,351.6,14.0,28,-12
+#3 Marine Radar,12,12,4,29.5,27.0,28,-8
+#4 Void Space Tank (S),10,13,4,184.7,20.0,27,-9
+Air Vent Head Heeling Tank Port,13,12,2,353.1,14.0,27,-10
+M/E #7 Fuel Injector,11,12,4,60.7,25.0,27,-8
+#2 H.F O Transfer pump,12,11,4,94.8,24.0,27,-7
+Stern Tube Cooling Water Tank,10,13,4,355.4,14.0,27,-9
+M/E #4B Fuel Inj. Pump,11,10,6,86.4,22.0,27,-4
+AC Deck Office,0,17,10,100.1,18.0,27,-7
+#6 Cargo Hold,12,12,3,31.0,26.0,27,-9
+#4 S.W.B.T.(P),12,12,3,250.9,18.0,27,-9
+Windlasses,11,12,4,81.2,24.0,27,-8
+A/C Split 3rd/E Room,1,19,7,92.4,20.0,27,-12
+Air Vent Head FOT.2 Stbd,8,15,4,359.4,11.0,27,-11
+Thermal Oil Pump #1,2,8,16,272.8,6.0,26,8
+Alpha Lubricator System,13,10,3,34.6,23.0,26,-7
+Slewing Bearing,15,9,2,117.0,8.0,26,-7
+Air Vent Head Heeling Tank stbd,12,12,2,352.9,14.0,26,-10
+#2 Windlass Electro Motor,10,11,5,92.1,21.0,26,-6
+Propeller (CPP) / Fix Propeller,9,16,1,15.0,1.0,26,-15
+#3 International VHF Radio Tel.,11,11,4,32.6,25.0,26,-7
+#4 S.W.B.T.(S),10,13,3,261.1,17.0,26,-10
+L.O Sludge Tank,12,12,2,185.0,20.0,26,-10
+#7 Cargo Hold,12,11,3,32.3,25.0,26,-8
+Air Vent Head Deep TK. C,13,12,0,370.0,12.0,25,-12
+SART,6,12,7,36.1,19.0,25,-5
+A/C Split 2nd/O Room,1,16,8,98.4,16.0,25,-8
+FW SANITARY PUMP NO.2,9,13,3,34.7,23.0,25,-10
+Cooling Fresh Water Pump Attachment ME 2,8,14,3,214.5,17.0,25,-11
+Propeller Shaft,5,16,4,269.0,1.0,25,-12
+Hoisting Pump No. 2,9,12,4,73.9,14.0,25,-8
+#1 Windlass Electro Motor,11,11,3,72.2,18.0,25,-8
+#2 F.O. Tank (S),10,13,2,256.0,6.0,25,-11
+M/E #3B Fuel Inj. Pump,11,7,7,94.4,21.0,25,0
+M/E #6B Fuel Inj. Pump,11,10,3,82.3,19.0,24,-7
+A/C Split 4th/E Room,1,18,5,96.8,18.0,24,-13
+Cyl. Oil Measuring Tank,13,10,1,396.0,5.0,24,-9
+#4 F.O. Tank (S),12,12,0,205.2,5.0,24,-12
+Observation Tank,10,12,2,369.1,12.0,24,-10
+#1 G/E L.O. Settling Tank,11,9,3,Belum Cukup Data,,23,-6
+A/C Split 3rd/O Room,1,16,6,102.6,17.0,23,-10
+Stern Tube L.O Pump Motor No.2,6,14,3,64.5,19.0,23,-11
+Main sea chest,0,10,13,86.7,7.0,23,3
+#4 F.O. Tank (P),10,12,1,227.0,2.0,23,-11
+L.O. Filters,6,14,3,86.8,20.0,23,-11
+Fresh Water Pumps,9,10,4,170.8,12.0,23,-6
+M/E #5B Fuel Inj. Pump,12,8,2,80.7,18.0,22,-6
+Fire Extinguising System,8,10,4,92.9,19.0,22,-6
+M/E#1L Cylinder Head,13,5,4,88.8,9.0,22,-1
+Air Vent Head FOT.2 Port,7,12,3,347.7,9.0,22,-9
+#1 F.O. Tank (C),13,6,3,220.0,1.0,22,-3
+Mooring Winches,13,6,3,49.6,16.0,22,-3
+Steering Hyd Pump No.2,3,7,12,75.4,10.0,22,5
+Elect. Motor E/R #4 Vent Fan,11,8,3,164.9,17.0,22,-5
+Pony Motor,4,13,5,73.3,17.0,22,-8
+#5 S.W.B.T.(P),9,10,3,293.4,14.0,22,-7
+A/C Split #1 Oiler Room,1,17,4,88.9,17.0,22,-13
+M/E #1B Fuel Inj. Pump,10,9,3,92.5,17.0,22,-6
+Hinge Assembly,10,10,2,188.6,16.0,22,-8
+Stern Tube L.O Pump Motor No.1,6,14,2,67.4,18.0,22,-12
+Steering Hyd Pump No.1,4,6,11,42.8,9.0,21,5
+M/E #2B Cylinder Liner,8,12,1,200.8,11.0,21,-11
+Distillate Pump,3,14,4,109.0,5.0,21,-10
+#2 F.O. Tank (C),13,6,2,Belum Cukup Data,,21,-4
+#2 F.O. Tank (P),9,11,1,254.5,6.0,21,-10
+Thermal Oil Pump #2,1,6,14,359.7,3.0,21,8
+#1 M/E L.O. Purifier Supply Pump Motor,6,11,4,36.0,20.0,21,-7
+#5 S.W.B.T.(S),8,11,2,300.5,13.0,21,-9
+#1 D/G Camshaft and Timing Gears,1,15,5,95.8,11.0,21,-10
+L.O. Daily Tank,9,11,1,Belum Cukup Data,,21,-10
+Cooling Water Evaluation Report,6,12,3,55.9,18.0,21,-9
+Steering Electric Motor Pump No.1,1,5,14,61.9,7.0,20,9
+A/C Split #1 A/B Room,1,15,4,95.7,15.0,20,-11
+#6 W.B.T.(S),9,9,2,293.2,11.0,20,-7
+Steering Electric Motor Pump No.2,3,5,12,138.4,9.0,20,7
+A/C Split Electricen Room,1,15,4,91.9,15.0,20,-11
+Air Vent Head WBT 6 Port,12,8,0,371.6,8.0,20,-8
+L.O.S.T.,8,9,3,307.2,12.0,20,-6
+M/E #3B Cylinder Liner,10,9,0,155.3,11.0,19,-9
+#3 GPS,5,10,4,34.4,18.0,19,-6
+L O.STOR.T,7,8,4,321.2,12.0,19,-4
+F.O. Save-all Tank,8,9,2,356.0,2.0,19,-7
+F.O. Drain Tank,9,8,2,113.8,16.0,19,-6
+M/E #4B Cylinder Liner,8,9,2,180.4,10.0,19,-7
+Machinery Class Certificate ( Sert. Klass Mesin ),0,15,3,90.8,13.0,18,-12
+Gearbox Pump,7,7,4,132.5,13.0,18,-3
+Cargo Tank No. 1C,1,11,6,53.8,14.0,18,-5
+Air Vent Head Void 2 Port,10,6,2,352.7,9.0,18,-4
+#1 G/E L.O. Purifier Supply Pump Motor,6,9,3,42.2,17.0,18,-6
+Air Vent Head Void 1 Port,10,6,2,377.7,9.0,18,-4
+S/T LO.T,9,7,2,307.7,10.0,18,-5
+Shaft Generator,8,8,2,160.8,13.0,18,-6
+Air Vent Head Void 1 Stbd,10,6,2,370.1,9.0,18,-4
+Interm. Shaft/Bearings,7,6,5,Belum Cukup Data,,18,-1
+#2 Boiler Water Circ Pump,7,9,1,24.0,1.0,17,-8
+M/E #5B Cylinder Liner,7,6,4,209.7,9.0,17,-2
+#3 F.O. Tank (P),9,7,1,249.7,6.0,17,-6
+#3 F.O. Tank (S),9,7,1,304.2,5.0,17,-6
+Minimum Safe Manning Certificate,2,12,3,126.5,13.0,17,-9
+S.W. Pumps,5,9,3,123.0,11.0,17,-6
+L.O Dirty Tank,7,7,3,193.5,13.0,17,-4
+ME#5L Fuel Injector,6,9,2,46.6,13.0,17,-7
+ME#5R Fuel Injector,5,10,2,46.6,13.0,17,-8
+ME#4L Fuel Injector,6,9,2,43.3,14.0,17,-7
+ME#3L Fuel Injector,6,9,2,46.6,13.0,17,-7
+LT FW Pump no 1,2,14,1,42.6,11.0,17,-13
+LT FW Pump no 2,4,12,1,65.0,13.0,17,-11
+Camshaft L.O. Tank,6,10,1,242.0,6.0,17,-9
+ME#2L Fuel Injector,6,9,2,46.6,13.0,17,-7
+M/E #1B Cylinder Liner,10,4,3,206.4,9.0,17,-1
+Air Vent Head Void 2 Stbd,9,6,2,399.4,8.0,17,-4
+Bunker Davit - P,0,8,9,36.4,12.0,17,1
+Bunker Davit - S,0,8,9,36.5,12.0,17,1
+B.SLT.T,8,7,2,299.3,10.0,17,-5
+fuel oil pipe lines,7,8,2,96.9,15.0,17,-6
+"Fire, Bilge and Ballast Pump",4,11,1,187.3,3.0,16,-10
+M/E#6R Cylinder Head,6,8,2,72.6,11.0,16,-6
+Air Vent Head Void 3 Port,8,5,3,372.2,8.0,16,-2
+Air Vent Head Void 3 Stbd,8,5,3,366.4,8.0,16,-2
+Air vent crankcase,0,11,5,201.0,9.0,16,-6
+M/E#5R Cylinder Head,6,8,2,72.6,11.0,16,-6
+ME#4R Fuel Injector,5,9,2,46.6,13.0,16,-7
+M/E #6B Cylinder Liner,3,10,3,157.4,8.0,16,-7
+Stuffing Box #7,9,7,0,237.7,6.0,16,-7
+#1 Boiler Water Circ Pump,7,9,0,45.0,1.0,16,-9
+F.O. Service Tank,7,8,1,Belum Cukup Data,,16,-7
+F.O. Settling Tank,7,8,1,260.0,1.0,16,-7
+ME#6R Fuel Injector,5,9,2,46.6,13.0,16,-7
+ME#3R Fuel Injector,5,9,2,46.6,13.0,16,-7
+LO Cooler Gear BOx P,0,0,16,68.7,3.0,16,16
+ME#6L Fuel Injector,5,9,2,46.6,13.0,16,-7
+LO Cooler Gear Box S,0,0,16,68.7,3.0,16,16
+M/E#1R Cylinder Head,5,8,3,48.6,12.0,16,-5
+ME#1R Fuel Injector,5,9,2,46.6,13.0,16,-7
+ME#2R Fuel Injector,5,9,2,46.6,13.0,16,-7
+#2 D/G Camshaft and Timing Gears,1,10,4,84.1,10.0,15,-6
+Cargo Tank No. 1P,0,10,5,30.5,13.0,15,-5
+Cargo Tank No. 1S,0,10,5,30.5,13.0,15,-5
+M/E#3R Cylinder Head,5,8,2,56.2,10.0,15,-6
+#1 G/E L.O. Purifier Supply Pump,7,7,1,57.0,12.0,15,-6
+#2 Fresh W. Tank (S),5,7,3,Belum Cukup Data,,15,-4
+CPP Lubr. Oil Cooler,7,6,2,154.5,12.0,15,-4
+M/E Lo Storage Tank,6,6,3,366.1,8.0,15,-3
+battery power DC anjungan,1,8,6,98.3,6.0,15,-2
+Cooling Sea Water Pump Attachment  ME 2,6,7,2,211.3,9.0,15,-5
+#2 Void Space Tank,6,8,1,166.8,11.0,15,-7
+#2 W.B.T.(C),7,6,2,328.0,8.0,15,-4
+M/E#4R Cylinder Head,5,7,2,62.4,9.0,14,-5
+M/E#4L Cylinder Head,7,5,2,93.7,6.0,14,-3
+"Ventilation, Air Conditioning System",10,1,3,62.8,13.0,14,2
+#2 Fresh W. Tank (P),4,7,3,Belum Cukup Data,,14,-4
+NO.1 DWB.TK (P),5,7,2,306.9,7.0,14,-5
+#3 D/G Camshaft and Timing Gears,0,12,2,96.5,8.0,14,-10
+#3 Deck Crane Luffing Gear Box,0,1,13,16.8,6.0,14,12
+#1 M/E L.O. Purifier Supply Pump,5,7,2,49.8,13.0,14,-5
+#5 Void Space Tank (S),6,6,2,186.1,11.0,14,-4
+SC.B.D.T,6,6,2,293.3,9.0,14,-4
+ST.B.L.O.T,6,6,2,299.7,9.0,14,-4
+#5 Void Space Tank (P),6,6,2,188.2,11.0,14,-4
+D.O. Tank (P),8,5,1,203.0,4.0,14,-4
+NO.4 DWB.TK (P),4,6,4,258.2,6.0,14,-2
+A/E Lo Storage tank,5,6,3,365.6,8.0,14,-3
+LO Cooler Gear Box,0,0,14,95.5,2.0,14,14
+M/E#2L Cylinder Head,6,5,2,88.8,9.0,13,-3
+A/C Split #3 A/B Room,0,10,3,81.9,10.0,13,-7
+M/E #4B Safety Valve,6,4,3,195.0,8.0,13,-1
+NO.1 DWB.TK (S),5,5,3,285.4,7.0,13,-2
+M/E #6B Safety Valve,4,4,5,189.6,7.0,13,1
+Attached LO Pump,2,8,3,207.3,7.0,13,-5
+Air Vent Head F BWT Port,8,5,0,288.4,5.0,13,-5
+B.SLU.T,6,6,1,277.8,8.0,13,-5
+MDO SUPPLY PUMP NO.2,6,5,2,187.6,9.0,13,-3
+M/E Lo settlink tank,5,6,2,366.9,7.0,13,-4
+M/E#3L Cylinder Head,6,5,2,88.9,9.0,13,-3
+Air Vent Head WBT 6 stb,7,6,0,373.2,6.0,13,-6
+NO.2 DWB.TK (P),5,6,2,308.4,7.0,13,-4
+D.O. Tank (S),7,5,1,262.7,3.0,13,-4
+#3 Void Space Tank,6,6,1,186.5,10.0,13,-5
+#1 Void Space Tank,6,6,1,183.4,10.0,13,-5
+A/C Split #2 A/B Room,0,9,3,93.4,9.0,12,-6
+NO.4 DWB.TK (S),4,5,3,255.0,6.0,12,-2
+M/E#6L Cylinder Head,5,5,2,114.1,7.0,12,-3
+NO.3 DWB.TK (S),4,5,3,301.2,5.0,12,-2
+NO.3 DWB.TK (P),4,5,3,256.7,6.0,12,-2
+Top-Up Air Compressor,0,7,5,19.6,5.0,12,-2
+#1 Deck Crane Hoist Gear Box,0,0,12,13.9,8.0,12,12
+Battery ME,3,6,3,70.1,8.0,12,-3
+Hydraulic Motor,3,9,0,31.8,5.0,12,-9
+Hull Classification ( Sert. Klass Lambung ),1,9,2,119.3,9.0,12,-7
+Air Vent Head F WBT Port,7,5,0,351.0,5.0,12,-5
+NO.5 DWB.TK (S),4,5,3,254.8,6.0,12,-2
+NO.5 DWB.TK (P),4,5,3,254.8,6.0,12,-2
+Air Vent Head F WBT stb,7,5,0,351.4,5.0,12,-5
+A/C Split Bostwain Room,0,9,3,93.7,9.0,12,-6
+A/C Split #3 Oiler Room,0,9,3,88.4,9.0,12,-6
+A/C Split #2 Oiler Room,0,9,3,94.3,9.0,12,-6
+#2 Waste Oil Tank,6,6,0,186.2,9.0,12,-6
+#1 Main Cool S.W Motor,4,7,1,129.8,6.0,12,-6
+M/E Turbo Charger no 1,7,2,2,188.9,8.0,11,0
+#3 D/G Cooling SW Pump,6,4,1,148.7,7.0,11,-3
+#2 Main Cool S.W Motor,4,6,1,183.3,6.0,11,-5
+M/E #8 Piston,6,4,1,234.1,7.0,11,-3
+ M/E #1B Crank Pin,4,5,2,123.8,9.0,11,-3
+#2 Genset Air Cooler,5,4,2,114.6,9.0,11,-2
+#8 W.B.T.(S),3,5,3,316.5,6.0,11,-2
+Air Vent Head F BWT Stbd,6,4,1,370.2,4.0,11,-3
+#9 W.B.T.(P),3,5,3,316.8,6.0,11,-2
+Auxiliary Air Comp. Motor,2,6,3,70.9,8.0,11,-3
+#10 W.B.T.(S),3,5,3,316.5,6.0,11,-2
+MDO SUPPLY PUMP NO.1,5,5,1,188.4,7.0,11,-4
+M/E#5L Cylinder Head,4,5,2,93.7,6.0,11,-3
+#10 W.B.T.(P),3,5,3,316.5,6.0,11,-2
+#2 Deck Crane Luffing Gear Box,0,2,9,21.0,7.0,11,7
+NO.2 DWB.TK (S),4,4,3,301.2,5.0,11,-1
+Grinder,3,5,3,Belum Cukup Data,,11,-2
+#9 W.B.T.(S),3,5,3,316.3,6.0,11,-2
+M/E#2R Cylinder Head,6,3,2,114.1,7.0,11,-1
+#4 D/G Governor,3,7,1,72.0,8.0,11,-6
+Port Side Ramp Way,6,4,1,90.9,9.0,11,-3
+M/E #7 Piston,4,4,2,216.6,7.0,10,-2
+#2 G/E L.O. Settling Tank,4,5,1,Belum Cukup Data,,10,-4
+Hoisting Piston Motor Variable,9,1,0,210.7,3.0,10,-1
+M/E #5 Cyl. Lubricator,4,4,2,191.7,6.0,10,-2
+#1 Genset Turbo Charger,3,7,0,57.1,9.0,10,-7
+LT FW Harbour Pump,4,5,1,97.2,8.0,10,-4
+#8 W.B.T.(P),3,5,2,306.8,5.0,10,-3
+M/E #4 Cyl. Lubricator,3,5,2,195.0,6.0,10,-3
+#7 W.B.T.(P),3,5,2,323.6,5.0,10,-3
+JACKET COOLING FW EXPANSION TK,6,2,2,304.5,2.0,10,0
+#11 W.B.T.(P),3,4,3,345.6,5.0,10,-1
+Battery Genset 2,3,4,3,99.0,8.0,10,-1
+#11 W.B.T.(S),3,4,3,345.6,5.0,10,-1
+M/E #1B Indicator Valve,6,3,1,262.9,7.0,10,-2
+Battery Genset 1,3,3,4,100.1,8.0,10,1
+Fresh Water Transfer Pump Motor,3,6,1,56.4,9.0,10,-5
+M/E #1B Safety Valve,5,3,2,255.3,6.0,10,-1
+Bilge Hold Tank,4,4,2,367.5,6.0,10,-2
+#01B Con-Rod Bolts,1,5,4,260.2,4.0,10,-1
+Hyd.Pump Hoist Vane IHI,0,2,8,44.8,4.0,10,6
+M/E #5B Safety Valve,4,2,4,256.8,5.0,10,2
+Fresh Water Transfer Pump,3,4,2,86.1,8.0,9,-2
+#1 Deck Crane Luffing Gear Box,0,1,8,57.0,6.0,9,7
+ME#1L Cylinder Liner,6,0,3,509.0,1.0,9,3
+B.T,4,4,1,365.6,5.0,9,-3
+Galley Package Air Conditioner,1,6,2,80.5,8.0,9,-4
+#2B Con-Rod Bolts,0,4,5,282.0,3.0,9,1
+#1 Mooring Winch Electro Motor,3,4,2,77.5,8.0,9,-2
+rudder stock,1,7,1,31.0,1.0,9,-6
+M/E#1L Fuel Injector,5,3,1,84.0,6.0,9,-2
+M/E #3B Safety Valve,3,4,2,231.0,6.0,9,-2
+ME#1L Fuel Injector,3,5,1,86.6,7.0,9,-4
+#4B Con-Rod Bolts,2,5,2,263.0,5.0,9,-3
+Electric Distribution System,4,5,0,184.3,6.0,9,-5
+M/E #2B Safety Valve,4,3,2,207.3,6.0,9,-1
+#5 Void Space Tank,4,4,1,186.6,7.0,9,-3
+#4 Void Space Tank,4,4,1,185.6,7.0,9,-3
+F.O./D.O. Pumps,4,4,1,95.1,8.0,9,-3
+"Deck Covering, Ladders, Railing",3,5,1,90.9,8.0,9,-4
+NO.6 DWB.TK (P),4,5,0,307.8,5.0,9,-5
+#2 W.B.T.(S)(up),3,3,3,327.8,5.0,9,0
+Synchronous Motor,2,6,1,140.0,7.0,9,-5
+#3 F.O. Tank (C),5,4,0,Belum Cukup Data,,9,-4
+#7 W.B.T.(S),3,5,1,352.2,4.0,9,-4
+M/E #2B Indicator Valve,4,5,0,303.2,5.0,9,-5
+D.O. Storage Tank,3,2,4,1.0,1.0,9,2
+#3B Con-Rod Bolts,1,5,2,262.2,4.0,8,-3
+Stern Ramp,4,4,0,106.8,6.0,8,-4
+NO.6 SWB.TK (P),4,4,0,226.8,5.0,8,-4
+PCC CARGO EQUIP,2,4,2,191.0,6.0,8,-2
+#1 Wndlass Hyd. Winch,4,3,1,142.8,5.0,8,-2
+Ballast Pump,0,7,1,Belum Cukup Data,,8,-6
+CYLO.STOR.T 2,3,3,2,365.2,5.0,8,-1
+DPI Performance,2,5,1,180.2,5.0,8,-4
+LT FW PUMP No. 3,0,7,1,95.0,3.0,8,-6
+#5B Con-Rod Bolts,1,4,3,265.2,4.0,8,-1
+CYLO.STOR.T 1,3,3,2,366.2,5.0,8,-1
+#6 S.W.B.T.(P),4,4,0,256.6,5.0,8,-4
+#6B Con-Rod Bolts,1,4,3,263.2,4.0,8,-1
+#6 S.W.B.T.(S),4,4,0,257.4,5.0,8,-4
+NO.6 DWB.TK (S),4,4,0,371.2,4.0,8,-4
+M/E #5B Indicator Valve,4,2,2,310.4,5.0,8,0
+Hyd.Pump Luff.Slew Vane IHI,0,2,6,59.7,3.0,8,4
+Exhaust Fan Motor,3,4,1,126.3,6.0,8,-3
+NO.6 SWB.TK (S),4,4,0,279.8,4.0,8,-4
+M/E #4B Indicator Valve,4,3,1,294.2,5.0,8,-2
+M/E #4B Cylinder head,5,2,1,153.8,4.0,8,-1
+Vent Fans,4,4,0,153.8,5.0,8,-4
+#2 W.B.T.(P)(up),2,3,3,327.4,5.0,8,0
+Surat laut ( Certificate of Regystry ),2,6,0,336.5,2.0,8,-6
+BILGE TK,3,2,2,Belum Cukup Data,,7,0
+Void Space Tank (1P),4,3,0,186.0,5.0,7,-3
+Actuator,1,6,0,244.8,4.0,7,-6
+#1 Cross Head L.O Pump Motor,3,4,0,115.2,6.0,7,-4
+Provision Plant no 1,3,4,0,381.7,3.0,7,-4
+Slewing Piston Motor Fixed 1,6,1,0,85.0,1.0,7,-1
+F.S.W.B (P),2,2,3,305.5,4.0,7,1
+M/E #6 Cyl. Lubricator,2,4,1,207.4,5.0,7,-3
+Hyd.Motor Hoist Vane IHI,0,4,3,86.0,1.0,7,-1
+#2 Genset Radiator,3,3,1,201.4,5.0,7,-2
+Prov Store Exh Fan Motor,3,3,1,136.5,4.0,7,-2
+#1 STERN W.B.T.(S),2,3,2,300.2,4.0,7,-1
+#1 STERN W.B.T.(P),2,3,2,300.8,4.0,7,-1
+#1 ME F.O Supply Pump,2,3,2,299.4,5.0,7,-1
+#1 Genset Radiator,3,3,1,202.8,5.0,7,-2
+Void Space Tank (1S),4,3,0,186.0,5.0,7,-3
+Void Space Tank (2P),3,3,1,185.0,5.0,7,-2
+propeller,0,7,0,Belum Cukup Data,,7,-7
+Void Space Tank (2S),3,3,1,185.0,5.0,7,-2
+Void Space Tank (3P),3,3,1,184.8,5.0,7,-2
+Void Space Tank (3S),4,3,0,185.8,5.0,7,-3
+Void Space Tank (4P),3,3,1,184.8,5.0,7,-2
+Void Space Tank (4S),4,3,0,185.8,5.0,7,-3
+#1 Main Engine Jacket Cool F.W Pump,2,4,0,172.0,1.0,6,-4
+M/E #8 Cross Head Bearing,3,2,1,168.2,4.0,6,-1
+sea chest,0,0,6,Belum Cukup Data,,6,6
+#2 STERN W.B.T.(S),2,2,2,309.5,4.0,6,0
+M/E #6B Indicator Valve,3,2,1,437.3,3.0,6,-1
+#2 STERN W.B.T.(P),2,2,2,300.2,4.0,6,0
+F.S.W.B (S),2,2,2,296.2,4.0,6,0
+M/E #6B Cylinder head,3,1,2,162.8,4.0,6,1
+#3 Mooring Winch ,3,3,0,110.4,5.0,6,-3
+M/E Turbo Charger no 2,3,1,2,325.8,4.0,6,1
+#3 Wing Tank (S),1,1,4,148.0,3.0,6,3
+#2 Wing Tank (P),1,1,4,198.0,2.0,6,3
+CPP L.O. Storage Tank,2,4,0,Belum Cukup Data,,6,-4
+ME#2R Cylinder Head,0,5,1,100.2,4.0,6,-4
+Car Deck Bilge Well Non Return Valve Aft.P,4,2,0,325.7,3.0,6,-2
+Car Deck Bilge Well Non Return Valve Aft.S,4,2,0,327.0,3.0,6,-2
+Tk no 803/cool water drain tk DB P,2,2,2,366.5,4.0,6,0
+Forced Draft Fan,5,0,1,Belum Cukup Data,,6,1
+BILGE SLUDGE TK,3,1,2,Belum Cukup Data,,6,1
+Air Vent Head SWBT 5 port,1,1,4,209.5,2.0,6,3
+M/E #3B Indicator Valve,3,3,0,425.3,3.0,6,-3
+Main AIr Compressor #1 ,3,2,1,172.3,3.0,6,-1
+#2 Cross Head L.O Pump Motor,2,3,1,144.8,5.0,6,-2
+CYLO.STOR.T,2,3,1,191.8,4.0,6,-2
+Slewing Piston Motor Fixed 2,6,0,0,23.5,2.0,6,0
+Stern Tube,1,5,0,385.0,1.0,6,-5
+#2 Genset Turbo Charger,2,3,0,128.7,3.0,5,-3
+#2 Wing Tank (S),1,0,4,8.0,1.0,5,4
+#4 D/G Safety Device,2,2,1,151.0,4.0,5,-1
+Machine Tools,2,2,1,184.5,4.0,5,-1
+Dangerous Cargo Cerfificate ( Sert. Muat Barang Berbahaya ),1,4,0,126.7,3.0,5,-4
+FRESH WATER PRESSURE TK,3,1,1,Belum Cukup Data,,5,0
+FUEL OIL SLUDGE TK,3,1,1,Belum Cukup Data,,5,0
+Heeling Tank 3 (S),3,2,0,367.0,2.0,5,-2
+DRINKING WATER PRESSURE TK,3,1,1,Belum Cukup Data,,5,0
+#3 Wing Tank (P),1,1,3,205.5,2.0,5,2
+M/E Stuffing Box Drain Pump,2,3,0,Belum Cukup Data,,5,-3
+Heeling Tank 3 (P),3,2,0,367.0,2.0,5,-2
+WASTE OIL TK,3,1,1,Belum Cukup Data,,5,0
+incinerator,0,3,2,94.0,3.0,5,-1
+M/E Exhaust Valves,2,3,0,177.0,3.0,5,-3
+M/E Cylinder Covers,2,2,1,185.5,4.0,5,-1
+SCAVING BOX DRAIN OIL TK,3,1,1,Belum Cukup Data,,5,0
+#5 F.O. Tank (S),2,3,0,202.5,2.0,5,-3
+CPP L.O. Tank,3,2,0,Belum Cukup Data,,5,-2
+Tk no 807 /Bilge water tank DB S,2,2,1,365.0,3.0,5,-1
+M/E #2B Cylinder head,3,1,1,208.7,3.0,5,0
+ME#1R Cylinder Liner,4,0,1,509.0,1.0,5,1
+ME#2L Cylinder Liner,4,0,1,509.0,1.0,5,1
+CYL OIL STORAGE TK,3,1,1,Belum Cukup Data,,5,0
+CYL OIL MEASURING TK,3,1,1,Belum Cukup Data,,5,0
+CASCADE TK,3,1,1,Belum Cukup Data,,5,0
+M/E #1B Cylinder head,3,0,2,266.0,2.0,5,2
+ME LUB OIL SETLINK TK,3,1,1,Belum Cukup Data,,5,0
+ME LUB OIL STORAGE T,3,1,1,Belum Cukup Data,,5,0
+Air Vent Head Deep Tank. C,2,2,1,360.3,3.0,5,-1
+Ballast Tanks,2,2,1,373.0,3.0,5,-1
+Bilge and G.S Pump,0,4,1,79.0,3.0,5,-3
+Tk no 805/Dirty oil DB tk S,2,2,1,365.0,3.0,5,-1
+ #2 Genset Fuel Pump,3,1,1,199.7,3.0,5,0
+#1 Wing Tank (S),1,0,3,523.0,1.0,4,3
+M/E #5L Piston ,2,1,1,594.0,2.0,4,0
+M/E #6B Exhaust Valve,2,2,0,177.0,3.0,4,-2
+M/E #7 Intaxe Valves,1,2,1,189.0,3.0,4,-1
+#2 ME F.O Supply pump,2,2,0,371.0,2.0,4,-2
+#3 Deck Crane Hoist Gear Box,0,0,4,18.0,1.0,4,4
+#3 mooring winch pump motor (S),0,2,2,93.0,1.0,4,0
+Stern tube Drain tank,2,0,2,Belum Cukup Data,,4,2
+Slewing Pump No. 3,0,4,0,61.7,3.0,4,-4
+Slewing Pump No. 2,0,4,0,92.5,2.0,4,-4
+#4 mooring winch pump motor (P),0,2,2,92.0,1.0,4,0
+#6 Side tank (s),3,1,0,375.0,1.0,4,-1
+AAIC,0,3,1,199.0,2.0,4,-2
+Side Ballast Tank (S),2,1,1,473.5,2.0,4,0
+Side Ballast Tank (P),2,1,1,471.5,2.0,4,0
+Sert. Nasional Pencegahan Pencemaran ( SNPP ),0,4,0,115.3,3.0,4,-4
+Safety Management Certificate ( Sert. Manajemen Keselamatan ),1,3,0,232.7,3.0,4,-3
+Safety Equipments,1,2,1,183.0,3.0,4,-1
+"Ballast, Bilge and Fire Systems",2,0,2,525.0,1.0,4,2
+Ballast Tank 4.01,2,2,0,123.7,3.0,4,-2
+M/E #4B Exhaust Valve,2,2,0,177.0,3.0,4,-2
+M/E# 1R Piston,2,2,0,172.7,3.0,4,-2
+M/E Starting Valves,2,2,0,627.5,2.0,4,-2
+M/E #5B Exhaust Valve,2,2,0,177.0,3.0,4,-2
+M/E #5B Cylinder head,2,0,2,258.0,2.0,4,2
+Ballast Tank 4.00,2,2,0,123.7,3.0,4,-2
+Bilge Tanks,3,1,0,368.0,1.0,4,-1
+Car Deck Bilge Well Non Return valve Fwd.S,2,2,0,400.5,2.0,4,-2
+Car Deck Bilge Well Non Return valve Fwd.P,2,2,0,418.5,2.0,4,-2
+STERN TUBE LO SUMP,3,0,1,Belum Cukup Data,,4,1
+Certficate ,0,4,0,96.0,3.0,4,-4
+D.O. Service Tank no.1,0,3,1,Belum Cukup Data,,4,-2
+Purifier Slude tank,3,0,1,Belum Cukup Data,,4,1
+DRI W.T (P),3,0,1,Belum Cukup Data,,4,1
+M/E #2B Exhaust Valve,2,2,0,177.0,3.0,4,-2
+M/E# 6R Piston,2,2,0,200.0,2.0,4,-2
+M/E# 5R Piston,2,2,0,172.7,3.0,4,-2
+M/E# 2R Piston,2,2,0,173.0,3.0,4,-2
+M/E #3B Exhaust Valve,2,2,0,177.0,3.0,4,-2
+M/E #3B Cylinder head,2,1,1,214.7,3.0,4,0
+F.O./D.O. Transfer Pumps,1,3,0,Belum Cukup Data,,4,-3
+NO.5 SWB.TK (S),2,2,0,377.0,2.0,4,-2
+NO.5 SWB.TK (P),2,2,0,376.5,2.0,4,-2
+NO.4 SWB.TK (S),2,2,0,377.0,2.0,4,-2
+NO.4 SWB.TK (P),2,2,0,376.5,2.0,4,-2
+NO.3 SWB.TK (S),2,2,0,377.0,2.0,4,-2
+NO.3 SWB.TK (P),2,2,0,376.5,2.0,4,-2
+NO.2 SWB.TK (S),2,2,0,377.0,2.0,4,-2
+NO.2 SWB.TK (P),2,2,0,376.5,2.0,4,-2
+NO.1 SWB.TK (S),2,2,0,377.0,2.0,4,-2
+NO.1 SWB.TK (P),2,2,0,377.0,2.0,4,-2
+ME#2R Cylinder Liner,3,0,1,509.0,1.0,4,1
+LO Sump. Tk (c),2,1,1,375.5,2.0,4,0
+LUB OIL SLUDGE TK,3,1,0,Belum Cukup Data,,4,-1
+M/E #1L Piston ,3,1,0,323.5,2.0,4,-1
+M/E #1B Exhaust Valve,2,2,0,177.0,3.0,4,-2
+HLA Cargo Tank 5S,0,0,4,30.0,2.0,4,4
+Main and Lifting Wire,4,0,0,Belum Cukup Data,,4,0
+Heeling Tank 2 (P),2,2,0,366.0,1.0,4,-2
+Heavy Oil Service Tank 2,2,1,1,Belum Cukup Data,,4,0
+Main Air Compressor #3,3,1,0,368.0,1.0,4,-1
+ME#6R Cylinder Liner,4,0,0,Belum Cukup Data,,4,0
+Hydraulic cylinder for Luffing ( Port side),4,0,0,9.0,2.0,4,0
+Hydraulic Pump,1,3,0,Belum Cukup Data,,4,-3
+ME#6L Cylinder Liner,4,0,0,Belum Cukup Data,,4,0
+ME#5R Cylinder Liner,4,0,0,Belum Cukup Data,,4,0
+ME#5L Cylinder Liner,4,0,0,Belum Cukup Data,,4,0
+ME#4R Cylinder Liner,4,0,0,Belum Cukup Data,,4,0
+ME#4L Cylinder Liner,4,0,0,Belum Cukup Data,,4,0
+ME#3R Cylinder Liner,4,0,0,Belum Cukup Data,,4,0
+ME#3L Cylinder Liner,4,0,0,Belum Cukup Data,,4,0
+#1 D/G Engine Cyl.Head No.3,1,2,1,167.0,1.0,4,-1
+#1 D/G Engine Cyl.Head No.2,1,2,1,167.0,1.0,4,-1
+M/E Air Cooler Cleaning Pump,3,0,1,Belum Cukup Data,,4,1
+M/E #8 Intaxe Valves,2,2,0,177.7,3.0,4,-2
+provision plant 2,2,2,0,369.0,2.0,4,-2
+# 2 side tank (p),2,1,0,368.0,1.0,3,-1
+# 2 side tank (s),2,1,0,367.0,1.0,3,-1
+booster Unit,1,1,1,340.5,2.0,3,0
+Top-Up Air Compressor Motor,0,2,1,93.0,1.0,3,-1
+#1 Genset Cooling FW Pump,1,1,1,259.5,2.0,3,0
+#1 Genset Fuel Pump,2,1,0,204.0,1.0,3,-1
+#1 Fresh W. Tank (C),1,2,0,Belum Cukup Data,,3,-2
+#1 D/G Engine Cyl.Head No.1,1,1,1,Belum Cukup Data,,3,0
+"Maint., Clean Equipment, Workshop / Store Outfit",1,1,1,385.5,2.0,3,0
+HLA Cargo Tank 4P,0,0,3,29.5,2.0,3,3
+Heavy Oil Service Tank 1,2,0,1,Belum Cukup Data,,3,1
+Heavy Oil Settling Tank 1,2,0,1,Belum Cukup Data,,3,1
+Main Air Compressor #2,1,2,0,219.0,1.0,3,-2
+L.O. Servis Tank,2,1,0,Belum Cukup Data,,3,-1
+Heavy Oil Settling Tank 2,2,0,1,Belum Cukup Data,,3,1
+Heeling Tank 2 (S),2,1,0,366.0,1.0,3,-1
+Harbour (Port use) SW Pump 1 ,0,0,3,59.0,1.0,3,3
+HLA Cargo Tank 5P,0,0,3,30.0,2.0,3,3
+HLA Cargo tank 4S,0,0,3,29.5,2.0,3,3
+D.O. Double Bottom Tank (S),1,2,0,Belum Cukup Data,,3,-2
+DRI W.T (S),2,0,1,Belum Cukup Data,,3,1
+RPK / RPT ( Rencana Penempatan Kapal ).,0,3,0,136.5,2.0,3,-3
+M/E# 3R Piston,1,2,0,140.5,2.0,3,-2
+M/E# 4R Piston,1,2,0,399.0,1.0,3,-2
+"Fire, Bilge and G.S Motor",0,0,3,Belum Cukup Data,,3,3
+Galley Machinery,2,1,0,365.0,1.0,3,-1
+G/E LO Sett. Tk (p),0,2,1,369.0,1.0,3,-1
+L.O. Tanks,1,1,1,383.0,2.0,3,0
+Luffing Pump No. 2,0,0,3,Belum Cukup Data,,3,3
+Luffing Piston Motor Fixed,3,0,0,Belum Cukup Data,,3,0
+D.O. Double Bottom Tank (P),1,2,0,Belum Cukup Data,,3,-2
+Deratting Exemption Certificate (Sertifikat Bebas Tikus),1,2,0,204.5,2.0,3,-2
+M/E #2L Piston ,2,1,0,410.0,1.0,3,-1
+AC SPLIT GANDRUM,0,2,1,94.5,2.0,3,-1
+#4 Wing Tank (P),0,0,3,6.0,2.0,3,3
+Steering Hyd Motor No.1,0,1,2,374.0,1.0,3,1
+#6 Side tank (p),2,1,0,369.0,1.0,3,-1
+Steering Hyd Motor No.2,0,1,2,364.0,1.0,3,1
+M/E #4L Piston ,2,1,0,410.0,1.0,3,-1
+#1 D/G Engine Cyl.Head No.4,0,2,1,167.0,1.0,3,-1
+#2 Main Engine Jacket Cool F.W Pump,1,2,0,Belum Cukup Data,,3,-2
+#1 D/G Engine Cyl.Head No.6,0,2,1,167.0,1.0,3,-1
+#1 Wing Tank (P),1,0,2,Belum Cukup Data,,3,2
+#1 S/T L.O Pump,0,3,0,Belum Cukup Data,,3,-3
+#2 Central Cool F.W Pump,2,0,1,189.0,1.0,3,1
+M/E #6L Piston ,2,1,0,410.0,1.0,3,-1
+#4 D/G Cooling FW Pump,1,2,0,139.5,2.0,3,-2
+Surat Ijin Komunikasi Radio ( SIKR ),0,3,0,128.5,2.0,3,-3
+Accomm. Ladders,3,0,0,95.0,2.0,3,0
+Air Vent Head Void 1 Center,2,1,0,296.0,1.0,3,-1
+Sea Water Pump for Trim,2,1,0,Belum Cukup Data,,3,-1
+M/E #3L Piston ,2,1,0,410.0,1.0,3,-1
+Battery for starting,2,0,1,Belum Cukup Data,,3,1
+Certificate of Insurance,0,3,0,138.0,2.0,3,-3
+Batterie Engine Thruster,0,1,2,49.0,2.0,3,1
+Air Vent Head SWBT 5 Stbd,1,1,1,376.0,1.0,3,0
+D.W.T (p),0,1,1,373.0,1.0,2,0
+HT cooler,0,0,2,Belum Cukup Data,,2,2
+M/E #1B Starting Valve,0,2,0,252.0,1.0,2,-2
+Heeling Tank 4 (S),1,1,0,366.0,1.0,2,-1
+Heeling Tank 4 (P),1,1,0,366.0,1.0,2,-1
+Fore Peak WBT ( P ),1,1,0,386.0,1.0,2,-1
+D.W.T (s),0,1,1,365.0,1.0,2,0
+D.O. Service Tank no.2,0,2,0,Belum Cukup Data,,2,-2
+DIRTY OIL PUMP,0,2,0,Belum Cukup Data,,2,-2
+M/E #2B Starting Valve,1,1,0,256.0,1.0,2,-1
+Emergency Fire Motor,0,0,2,Belum Cukup Data,,2,2
+Feed Water Tank (s),2,0,0,Belum Cukup Data,,2,0
+FWT.C,1,1,0,374.0,1.0,2,-1
+Fore Peak WBT ( S ),1,1,0,386.0,1.0,2,-1
+Feed Water tank (p),2,0,0,Belum Cukup Data,,2,0
+G/E LO Store Tk (p),1,1,0,365.0,1.0,2,-1
+M/E #3B Cylinder Cover,1,1,0,407.0,1.0,2,-1
+"Fire, Bilge and Ballast Motor",0,1,1,151.0,1.0,2,0
+#4 D/G L.O. Priming Pump,1,1,0,378.0,1.0,2,-1
+#4 D/G MDO Feed Pump,1,1,0,478.0,1.0,2,-1
+#4 D.W.B.T(s),0,1,1,373.0,1.0,2,0
+#4 D/G Air Cooler,1,1,0,457.0,1.0,2,-1
+M/E #6B Starting Valve,1,1,0,254.0,1.0,2,-1
+Air Vent Head Void 5 Stbd,1,1,0,362.0,1.0,2,-1
+Sertificate SART,1,1,0,385.0,1.0,2,-1
+Air Vent Head Void 5 Port,1,1,0,362.0,1.0,2,-1
+#4 U.W.B.T(p),0,1,1,365.0,1.0,2,0
+Slewing Piston Motor Fixed 3,2,0,0,11.0,1.0,2,0
+Slop Tk.,0,2,0,Belum Cukup Data,,2,-2
+#4 W.B.T.(C),1,1,0,378.0,1.0,2,-1
+#5 F.O. Tank (P),1,1,0,Belum Cukup Data,,2,-1
+#5 F.O. Tank (C),1,1,0,Belum Cukup Data,,2,-1
+#5 F .W.B.T (s),0,1,1,365.0,1.0,2,0
+#5 F.W.B.T (p),0,1,1,365.0,1.0,2,0
+#5 A.W.B.T (s),0,1,1,365.0,1.0,2,0
+#6 F.O. Tank (C),1,1,0,Belum Cukup Data,,2,-1
+#5 A.W.B.T (p),0,1,1,365.0,1.0,2,0
+#4 U.W.B.T(s),0,1,1,365.0,1.0,2,0
+M/E #4B Starting Valve,1,1,0,258.0,1.0,2,-1
+M/E Pistons,1,1,0,472.0,1.0,2,-1
+Shore Base Maintenance ( SBM ),0,1,1,415.0,1.0,2,0
+Sertifikat Pemadam Kebakaran ,1,1,0,386.0,1.0,2,-1
+#4 Wing Tank (S),0,0,2,15.0,1.0,2,2
+M/E #4B Cylinder Cover,1,1,0,407.0,1.0,2,-1
+M/E #3B Starting Valve,0,2,0,251.0,1.0,2,-2
+M/E fuel pump,1,0,1,Belum Cukup Data,,2,1
+Sertifikat HRU Life Raft,1,1,0,386.0,1.0,2,-1
+Document Of Compliance,1,1,0,409.0,1.0,2,-1
+PURIFIER OPERATING WATER TK,0,2,0,Belum Cukup Data,,2,-2
+D.O. DAILY Tank 1,0,1,1,Belum Cukup Data,,2,0
+M/E #1B Cylinder Cover,1,1,0,407.0,1.0,2,-1
+M/E #2B Cylinder Cover,1,1,0,407.0,1.0,2,-1
+F.O./D.O. Purifiers,1,1,0,365.0,1.0,2,-1
+F.W.T (p),2,0,0,Belum Cukup Data,,2,0
+L.O. Transfer Pumps,1,1,0,Belum Cukup Data,,2,-1
+Fuel Pump #B1,1,1,0,340.0,1.0,2,-1
+Harbour (Port use) SW Motor 1,0,0,2,Belum Cukup Data,,2,2
+Harbour (port Use) SW Motor 2,0,1,1,31.0,1.0,2,0
+Hoist Pump Variable TSUJI,0,0,2,20.0,1.0,2,2
+Harbour SW Pump,1,0,1,Belum Cukup Data,,2,1
+Hydraulic cylinder for luffing(starboard side),2,0,0,Belum Cukup Data,,2,0
+Hydraulic cylinder for Luffing ( Starboard side),2,0,0,Belum Cukup Data,,2,0
+Hydraulic Pump Hatch Cover,0,2,0,Belum Cukup Data,,2,-2
+Hydraulic System,2,0,0,Belum Cukup Data,,2,0
+#1 Ramp Hyd Motor,2,0,0,Belum Cukup Data,,2,0
+L.O Trans. Pump,0,2,0,Belum Cukup Data,,2,-2
+# 3 Side tank(s),1,1,0,369.0,1.0,2,-1
+# 2 F.W.B.T(s),0,1,1,366.0,1.0,2,0
+# 2 F.W.B.T(p),0,1,1,365.0,1.0,2,0
+# 2 F.O.T (s),1,0,1,Belum Cukup Data,,2,1
+WBT. P,1,1,0,372.0,1.0,2,-1
+#1 Central Cool F.W Pump,0,1,1,Belum Cukup Data,,2,0
+ #2 Genset Cooling FW Pump,0,1,1,341.0,1.0,2,0
+WBT. S,1,1,0,372.0,1.0,2,-1
+#2 A.W.B.T(s),0,1,1,365.0,1.0,2,0
+#1 W.B.T.(P)(up),1,1,0,377.0,1.0,2,-1
+#1 Central C.F.W Cooler,0,0,2,7.0,1.0,2,2
+#2 A.W.B.T(p),0,1,1,366.0,1.0,2,0
+M/E #6B Cylinder Cover,1,1,0,407.0,1.0,2,-1
+M/E #5B Starting Valve,0,1,1,370.0,1.0,2,0
+M/E L.O Circulation Tank ( P ),1,1,0,Belum Cukup Data,,2,-1
+M/E L.O Circulation Tank ( S ),1,1,0,Belum Cukup Data,,2,-1
+#3 D.W.B.T(s),0,1,1,375.0,1.0,2,0
+Stuffing box #8,0,2,0,217.0,1.0,2,-2
+#3 Side Tank (p),1,1,0,369.0,1.0,2,-1
+#4 Deck Crane Luffing Gear Box,0,2,0,7.0,1.0,2,-2
+Tk no 605 / MDO Day serv tk emerg,1,0,1,Belum Cukup Data,,2,1
+#2 F.O. Tank (STB),0,2,0,Belum Cukup Data,,2,-2
+#1 W.B.T.(S)(up),1,1,0,377.0,1.0,2,-1
+Certificate Anti Fouling,0,2,0,Belum Cukup Data,,2,-2
+#4 D.W.B.T(p),0,1,1,366.0,1.0,2,0
+#3 D.W.B.T(p),0,1,1,375.0,1.0,2,0
+#2 F.O.T (p),1,0,1,Belum Cukup Data,,2,1
+Sertifikat Life Raft,1,1,0,386.0,1.0,2,-1
+Air Vent Head Void 4 Port,1,1,0,365.0,1.0,2,-1
+Sert. Dana Jaminan ganti Rugi Pencemaran Minyak,0,1,1,365.0,1.0,2,0
+Certificate EPIRB,1,1,0,379.0,1.0,2,-1
+Compass Deviation Card,1,1,0,365.0,1.0,2,-1
+Car/Cargo Holds,2,0,0,Belum Cukup Data,,2,0
+M/E #5B Cylinder Cover,1,1,0,407.0,1.0,2,-1
+Car Deck Bilge Well Non Return Valve Fwd.C,2,0,0,200.0,1.0,2,0
+LO Acumulation Tk.,0,1,0,Belum Cukup Data,,1,-1
+L.O Trans. Pump Motor,0,1,0,Belum Cukup Data,,1,-1
+Jigger Cyl Hyd Motor,1,0,0,Belum Cukup Data,,1,0
+#1 D/G Fuel Injection Pump No.3,0,1,0,Belum Cukup Data,,1,-1
+#1 D/G Fuel Injection Pump No.5,0,1,0,Belum Cukup Data,,1,-1
+#1 D/G Fuel Injection Pump No.2,0,1,0,Belum Cukup Data,,1,-1
+#1 G/E F.O Booster pump,0,1,0,Belum Cukup Data,,1,-1
+#1 Genset Lub. Oil Pump,1,0,0,Belum Cukup Data,,1,0
+#1 Genset Lub. Oil Cooler,1,0,0,Belum Cukup Data,,1,0
+#1 Main Cooling F.W. pump,0,0,1,Belum Cukup Data,,1,1
+ #2 Genset Lub. Oil Pump,1,0,0,Belum Cukup Data,,1,0
+ #2 Genset Lub. Oil Cooler,1,0,0,Belum Cukup Data,,1,0
+# 4 D. F.O.T (p),1,0,0,Belum Cukup Data,,1,0
+# 4 D.F.O.T (s),1,0,0,Belum Cukup Data,,1,0
+magnetron-JRC-JMA 9133-SA M1555,1,0,0,Belum Cukup Data,,1,0
+radar transponder,0,1,0,Belum Cukup Data,,1,-1
+#1 Main C.F.W. pump motor ,0,0,1,Belum Cukup Data,,1,1
+Harbour (port Use) SW Pump 2,0,1,0,Belum Cukup Data,,1,-1
+Hot Water Circ. Pumps,0,1,0,Belum Cukup Data,,1,-1
+Main Engine Tk/TB,0,0,1,Belum Cukup Data,,1,1
+IOPP ( International Pollution Prevention ),1,0,0,Belum Cukup Data,,1,0
+Lifting and Transport Eqpt,0,1,0,Belum Cukup Data,,1,-1
+Lifting Wire,1,0,0,Belum Cukup Data,,1,0
+M/E #1R Crank Pins,0,0,1,Belum Cukup Data,,1,1
+"Life Saving, Protection",0,1,0,Belum Cukup Data,,1,-1
+Exhaust Valve Driving Gear Upper-Lower,0,1,0,Belum Cukup Data,,1,-1
+F.W.T (s),1,0,0,Belum Cukup Data,,1,0
+Feed / Circ. Pumps,1,0,0,Belum Cukup Data,,1,0
+Magnetron 1,1,0,0,Belum Cukup Data,,1,0
+Mechanical Control Gear,0,1,0,Belum Cukup Data,,1,-1
+HFO Storage Tank 0.01,1,0,0,Belum Cukup Data,,1,0
+HFO Storage Tank 0.02,1,0,0,Belum Cukup Data,,1,0
+M/E #1L Crank Pins ,0,0,1,Belum Cukup Data,,1,1
+D.O. Tank (B.S),0,1,0,Belum Cukup Data,,1,-1
+D.O. Tank (B.P),0,1,0,Belum Cukup Data,,1,-1
+Ref.Machine Cool.S.W.Pump,0,1,0,Belum Cukup Data,,1,-1
+D.O. DAILY Tank 2,0,1,0,Belum Cukup Data,,1,-1
+DIESEL GEN FO  SETLING T,0,1,0,Belum Cukup Data,,1,-1
+DIESEL GEN  FO SERVICE T,0,1,0,Belum Cukup Data,,1,-1
+Puri. Sludge Tk (s),1,0,0,Belum Cukup Data,,1,0
+ROCK ARM MEASURING TK,0,1,0,Belum Cukup Data,,1,-1
+M/E #2R Crank Pins,0,0,1,Belum Cukup Data,,1,1
+F.O./D.O. Filters,1,0,0,Belum Cukup Data,,1,0
+EQUIPMENT FOR CREW,0,1,0,Belum Cukup Data,,1,-1
+M/E #2L Crank Pins ,0,0,1,Belum Cukup Data,,1,1
+Drain/Waste Tanks,0,1,0,Belum Cukup Data,,1,-1
+F.O. Side Tank (P),0,1,0,Belum Cukup Data,,1,-1
+F.O. Side Tank (S),0,1,0,Belum Cukup Data,,1,-1
+M/E #3R Crank Pins,0,0,1,Belum Cukup Data,,1,1
+PT pump ,1,0,0,Belum Cukup Data,,1,0
+PT Pump ,1,0,0,Belum Cukup Data,,1,0
+Flap Wire For Stern Ramp,0,1,0,Belum Cukup Data,,1,-1
+Cargo Tank No.4S,0,0,1,Belum Cukup Data,,1,1
+Cyl Oil Store Tk (p),1,0,0,Belum Cukup Data,,1,0
+Certificates,1,0,0,Belum Cukup Data,,1,0
+Communication Equipment,0,1,0,Belum Cukup Data,,1,-1
+STUFFING BOX LEAK TK,0,1,0,Belum Cukup Data,,1,-1
+Cargo Tank No.5P,0,0,1,Belum Cukup Data,,1,1
+Cargo Tank No.5S,0,0,1,Belum Cukup Data,,1,1
+Cargo Tank No.4P,0,0,1,Belum Cukup Data,,1,1
+M/E #4L Crank Pins,0,0,1,Belum Cukup Data,,1,1
+M/E #4R Crank Pins,0,0,1,Belum Cukup Data,,1,1
+M/E #3L Crank Pins,0,0,1,Belum Cukup Data,,1,1
+Ballast Water Management Certificate,0,1,0,Belum Cukup Data,,1,-1
+Sert. Dana Jaminan Ganti Rugi Wreck Removal,0,1,0,Belum Cukup Data,,1,-1
+#4 D.O.T (c),1,0,0,Belum Cukup Data,,1,0
+#4 F.O.T(p),1,0,0,Belum Cukup Data,,1,0
+#4 F.O.T (s),1,0,0,Belum Cukup Data,,1,0
+AC Portable Office Room,0,0,1,Belum Cukup Data,,1,1
+Supply Unit,1,0,0,Belum Cukup Data,,1,0
+#2 Main Cooling F.W. pump,0,1,0,Belum Cukup Data,,1,-1
+M/E Intake Valves,0,1,0,Belum Cukup Data,,1,-1
+#2 S/T L.O Pump ,0,1,0,Belum Cukup Data,,1,-1
+#3 F.F.O.T(p),1,0,0,Belum Cukup Data,,1,0
+#4 D/G Lub. Oil Cooler,0,1,0,Belum Cukup Data,,1,-1
+#4 D/G Lub. Oil Pump,0,1,0,Belum Cukup Data,,1,-1
+#3 F.F.O.T(s),1,0,0,Belum Cukup Data,,1,0
+#3 A.F.O.T(s),1,0,0,Belum Cukup Data,,1,0
+#3 A.F.O.T(p),1,0,0,Belum Cukup Data,,1,0
+#2 Ramp Hyd Motor,1,0,0,Belum Cukup Data,,1,0
+#3 Central Cool F.W Pump,1,0,0,Belum Cukup Data,,1,0
+M/E LO Store Tk (p),1,0,0,Belum Cukup Data,,1,0
+M/E LO Sett. Tk (p),1,0,0,Belum Cukup Data,,1,0
+TK no 704/ LO sternt/gear aux engine,0,0,1,Belum Cukup Data,,1,1
+TK no 705/ HO stering gear,0,0,1,Belum Cukup Data,,1,1
+#2 Cross Head L.O Pump,0,1,0,Belum Cukup Data,,1,-1
+M/E #5L Crank Pins,0,0,1,Belum Cukup Data,,1,1
+M/E #5R Crank Pins,0,0,1,Belum Cukup Data,,1,1
+#2 G/E F.O Booster pump,0,1,0,Belum Cukup Data,,1,-1
+M/E #6L Crank Pins,0,0,1,Belum Cukup Data,,1,1
+M/E #6R Crank Pins,0,0,1,Belum Cukup Data,,1,1
+#2 CPP L.O. Pump,0,1,0,Belum Cukup Data,,1,-1
+T/C LUB OIL SUMP TK,0,1,0,Belum Cukup Data,,1,-1
+#1 D/G Engine Cyl.Head No.5,0,0,1,Belum Cukup Data,,1,1
+#1 Servo Oil Pump,1,0,0,Belum Cukup Data,,1,0
+#1 CPP L.O. Pump,0,1,0,Belum Cukup Data,,1,-1
+#1 D/G Fuel Injection Pump No.1,0,1,0,Belum Cukup Data,,1,-1
