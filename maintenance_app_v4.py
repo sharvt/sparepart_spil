@@ -18,8 +18,8 @@ st.markdown("Dashboard interaktif untuk memonitor laporan pekerjaan maintenance 
 @st.cache_data
 def load_data():
     # Daftar file
-    file_2024 = "Magang Sparepart 2025\Maintenance Job Report ALL ACTIVE VESSEL 2024.xlsx"
-    file_2025 = "Magang Sparepart 2025\Maintenance Job Report ALL ACTIVE VESSEL 2025.xlsx"
+    file_2024 = "Magang Sparepart 2025/Maintenance Job Report ALL ACTIVE VESSEL 2024.xlsx"
+    file_2025 = "Magang Sparepart 2025/Maintenance Job Report ALL ACTIVE VESSEL 2025.xlsx"
     
     try:
         # Load kedua file
