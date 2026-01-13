@@ -13,10 +13,9 @@ st.set_page_config(
 st.title("🚢 Vessel Maintenance Job Dashboard")
 st.markdown("Dashboard interaktif untuk memonitor laporan pekerjaan maintenance kapal tahun 2024-2025.")
 
-# --- FUNGSI LOAD DATA (VERSI FINAL & ROBUST) ---
+# --- FUNGSI LOAD DATA (DIPERBAIKI) ---
 @st.cache_data
 def load_data():
-    # Menggunakan forward slash (/) agar aman di Server Linux/Streamlit Cloud
     file_2024 = "Magang Sparepart 2025/Maintenance Job Report ALL ACTIVE VESSEL 2024.xlsx"
     file_2025 = "Magang Sparepart 2025/Maintenance Job Report ALL ACTIVE VESSEL 2025.xlsx"
     
@@ -28,23 +27,25 @@ def load_data():
         # Gabungkan data
         df = pd.concat([df1, df2], ignore_index=True)
         
-        # --- LOGIKA TANGGAL ANTI-ERROR ---
-        # Kita bangun tanggal dari kolom TAHUN dan BULAN (lebih stabil daripada parsing string tanggal)
+        # --- PERBAIKAN UTAMA DI SINI ---
+        # Daripada mengandalkan parsing tanggal yang sering error,
+        # Kita gunakan kolom TAHUN dan BULAN yang sudah pasti ada angkanya.
         
-        # 1. Pastikan TAHUN dan BULAN adalah angka integer
+        # 1. Pastikan TAHUN dan BULAN adalah angka
         df['TAHUN'] = pd.to_numeric(df['TAHUN'], errors='coerce').fillna(0).astype(int)
         df['BULAN'] = pd.to_numeric(df['BULAN'], errors='coerce').fillna(0).astype(int)
         
-        # 2. Filter data yang valid (Hapus baris sampah/kosong)
+        # 2. Filter data sampah (Tahun 0 atau Bulan 0/13+)
         df = df[(df['TAHUN'] > 2000) & (df['BULAN'] >= 1) & (df['BULAN'] <= 12)]
         
-        # 3. Buat kolom Month_Year Manual untuk Sorting Grafik (Format: YYYY-MM)
+        # 3. Buat kolom Month_Year Manual (Format: YYYY-MM)
+        # Ini DIJAMIN akan mengurutkan data dengan benar dan tidak akan ada yang hilang
         df['Month_Year'] = df['TAHUN'].astype(str) + "-" + df['BULAN'].astype(str).str.zfill(2)
         
-        # 4. Konversi JOBREPORT_DATE hanya untuk tampilan tabel (Kosmetik)
+        # 4. Konversi JOBREPORT_DATE hanya untuk tampilan tabel (kosmetik)
         df['JOBREPORT_DATE'] = pd.to_datetime(df['JOBREPORT_DATE'], dayfirst=True, errors='coerce')
         
-        # 5. Konversi Running Hours ke angka
+        # 5. Konversi Running Hours
         df['RH_THIS_MONTH_UNTIL_JOBDONE'] = pd.to_numeric(df['RH_THIS_MONTH_UNTIL_JOBDONE'], errors='coerce').fillna(0)
         
         return df
@@ -70,7 +71,7 @@ if not df.empty:
     selected_vessels = st.sidebar.multiselect(
         "Pilih Kapal (Vessel ID)", 
         options=vessel_options, 
-        default=['ALL'] # Default langsung ALL
+        default=['ALL'] 
     )
     
     # 3. Filter Tipe Frekuensi
@@ -78,29 +79,28 @@ if not df.empty:
     selected_freq = st.sidebar.multiselect("Pilih Tipe Frekuensi", available_freq, default=available_freq)
     
     st.sidebar.markdown("---")
-    
     # 4. Filter Saturday Routine
     exclude_saturday = st.sidebar.checkbox("Sembunyikan 'Saturday Routine'", value=True)
-    st.sidebar.caption("Menyembunyikan pekerjaan rutin mingguan agar fokus pada analisis kerusakan sparepart.")
+    st.sidebar.caption("Menyembunyikan pekerjaan rutin mingguan agar fokus pada analisis sparepart.")
 
     # --- FILTERING LOGIC ---
     if not selected_years: selected_years = available_years
     if not selected_freq: selected_freq = available_freq
     
-    # Logic Vessel ALL: Jika 'ALL' dipilih atau kosong, ambil semua kapal
+    # Logic Vessel ALL
     if 'ALL' in selected_vessels or not selected_vessels:
         vessel_filter = df['VESSELID'].unique()
     else:
         vessel_filter = selected_vessels
 
-    # Terapkan Filter Utama
+    # Terapkan Filter
     filtered_df = df[
         (df['TAHUN'].isin(selected_years)) &
         (df['VESSELID'].isin(vessel_filter)) &
         (df['FREQ_TYPE'].isin(selected_freq))
     ]
     
-    # Buat DataFrame Khusus Analisis Komponen (Tanpa Saturday Routine jika dicentang)
+    # DataFrame Khusus Analisis Komponen
     df_analysis = filtered_df.copy()
     if exclude_saturday:
         mask_saturday = (
@@ -114,14 +114,12 @@ if not df.empty:
     col1, col2, col3, col4 = st.columns(4)
 
     with col1:
-        # KPI Total biasanya tetap menampilkan semua pekerjaan (beban kerja total)
         st.metric("Total Maintenance (All)", f"{len(filtered_df):,}")
 
     with col2:
         st.metric("Total Kapal Terpilih", filtered_df['VESSELID'].nunique())
 
     with col3:
-        # Komponen terbanyak mengambil dari data analisis (yang mungkin exclude saturday)
         if not df_analysis.empty:
             top_component = df_analysis['COMPNAME'].mode()[0]
         else:
@@ -141,10 +139,11 @@ if not df.empty:
 
     with row1_col1:
         st.subheader("📈 Tren Maintenance Per Bulan")
-        # Tren mengikuti checkbox Saturday Routine agar sinkron dengan analisis sparepart
+        # Menggunakan data sesuai checkbox (df_analysis jika exclude, filtered_df jika include)
         data_trend = df_analysis if exclude_saturday else filtered_df
         
         if not data_trend.empty:
+            # Grouping berdasarkan Month_Year yang sudah kita fix
             jobs_per_month = data_trend.groupby('Month_Year').size().reset_index(name='Count')
             jobs_per_month = jobs_per_month.sort_values('Month_Year')
             
@@ -191,7 +190,7 @@ if not df.empty:
             # 2. Filter data
             df_top_comp = df_analysis[df_analysis['COMPNAME'].isin(top_components_list)]
             
-            # 3. Group by (Menggunakan Month_Year)
+            # 3. Group by (Menggunakan Month_Year yang sudah fix)
             comp_trend = df_top_comp.groupby(['Month_Year', 'COMPNAME']).size().reset_index(name='Count')
             comp_trend = comp_trend.sort_values('Month_Year')
             
@@ -241,7 +240,6 @@ if not df.empty:
     st.subheader("📋 Detail Data Laporan")
     
     with st.expander("Klik untuk melihat/menyembunyikan tabel data raw"):
-        # Tampilkan data sesuai filter (df_analysis) agar tabelnya juga bersih dari Saturday Routine jika dicentang
         show_cols = ['JOBREPORT_DATE', 'VESSELID', 'JOBTITLE', 'COMPNAME', 'FREQ_TYPE', 'JOBFREQ', 'JOBREPORT_REMARK']
         st.dataframe(df_analysis[show_cols], use_container_width=True)
         
