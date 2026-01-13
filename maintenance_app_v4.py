@@ -13,34 +13,33 @@ st.set_page_config(
 st.title("🚢 Vessel Maintenance Job Dashboard")
 st.markdown("Dashboard interaktif untuk memonitor laporan pekerjaan maintenance kapal tahun 2024-2025.")
 
-# --- FUNGSI LOAD DATA (OPTIMAL) ---
+# --- FUNGSI LOAD DATA ---
 @st.cache_data
 def load_data():
-    # Menggunakan forward slash (/) agar aman di server Linux/Cloud
+    # Path file
     file_2024 = "Magang Sparepart 2025/Maintenance Job Report ALL ACTIVE VESSEL 2024.xlsx"
     file_2025 = "Magang Sparepart 2025/Maintenance Job Report ALL ACTIVE VESSEL 2025.xlsx"
     
     try:
-        # Load data (Optimasi: hanya baca kolom yang dibutuhkan jika file sangat besar, 
-        # tapi baca semua juga oke untuk dataset ukuran sedang)
+        # Load data
         df1 = pd.read_excel(file_2024)
         df2 = pd.read_excel(file_2025)
         
         # Gabungkan data
         df = pd.concat([df1, df2], ignore_index=True)
         
-        # --- LOGIKA TANGGAL & DATA CLEANING ---
+        # --- DATA CLEANING ---
         # 1. Pastikan TAHUN dan BULAN adalah angka
         df['TAHUN'] = pd.to_numeric(df['TAHUN'], errors='coerce').fillna(0).astype(int)
         df['BULAN'] = pd.to_numeric(df['BULAN'], errors='coerce').fillna(0).astype(int)
         
-        # 2. Filter data tahun/bulan yang valid
+        # 2. Filter data valid
         df = df[(df['TAHUN'] > 2000) & (df['BULAN'] >= 1) & (df['BULAN'] <= 12)]
         
-        # 3. Buat kolom Month_Year untuk sorting grafik
+        # 3. Buat kolom Month_Year
         df['Month_Year'] = df['TAHUN'].astype(str) + "-" + df['BULAN'].astype(str).str.zfill(2)
         
-        # 4. Pastikan kolom Teks tidak ada yang NaN (penting untuk pencarian string filter)
+        # 4. Handle Missing Values String
         df['COMPNAME'] = df['COMPNAME'].astype(str).fillna("-")
         df['JOBTITLE'] = df['JOBTITLE'].astype(str).fillna("-")
         df['VESSELID'] = df['VESSELID'].astype(str).fillna("Unknown")
@@ -63,13 +62,12 @@ if not df.empty:
     # --- SIDEBAR: FILTER ---
     st.sidebar.header("🔍 Filter Data")
     
-    # 1. Filter Tahun
+    # Filter Tahun
     all_years = sorted(df['TAHUN'].unique())
     selected_years = st.sidebar.multiselect("Pilih Tahun", all_years, default=all_years)
     
-    # 2. Filter Vessel (Kapal) dengan Logic 'ALL'
+    # Filter Vessel (Logic 'ALL')
     all_vessels = sorted(df['VESSELID'].unique().tolist())
-    # Opsi ALL ditaruh paling atas
     vessel_options = ['ALL'] + all_vessels
     
     selected_vessels = st.sidebar.multiselect(
@@ -78,19 +76,19 @@ if not df.empty:
         default=['ALL']
     )
     
-    # 3. Filter Tipe Frekuensi
+    # Filter Tipe Frekuensi
     all_freqs = sorted(df['FREQ_TYPE'].unique())
     selected_freqs = st.sidebar.multiselect("Pilih Tipe Frekuensi", all_freqs, default=all_freqs)
     
     st.sidebar.markdown("---")
     
-    # 4. Filter Saturday Routine (Default: Dicentang/Aktif)
+    # Filter Saturday Routine
     exclude_saturday = st.sidebar.checkbox("Sembunyikan 'Saturday Routine'", value=True)
     st.sidebar.caption("Menyembunyikan maintenance rutin mingguan agar grafik fokus pada sparepart.")
 
     # --- PENERAPAN FILTER ---
     
-    # Handle jika user mengosongkan pilihan (kembali ke default semua terpilih)
+    # Handle default (jika kosong)
     if not selected_years: selected_years = all_years
     if not selected_freqs: selected_freqs = all_freqs
     
@@ -100,25 +98,21 @@ if not df.empty:
     else:
         vessel_filter = selected_vessels
 
-    # 1. Filter DataFrame Utama (Base Filter)
+    # 1. Filter Utama
     filtered_df = df[
         (df['TAHUN'].isin(selected_years)) &
         (df['VESSELID'].isin(vessel_filter)) &
         (df['FREQ_TYPE'].isin(selected_freqs))
     ]
     
-    # 2. Filter Saturday Routine
-    # Kita buat df_analysis yang akan digunakan untuk SEMUA grafik komponen
+    # 2. Filter Saturday Routine (Untuk Analisis Komponen)
     df_analysis = filtered_df.copy()
     
     if exclude_saturday:
-        # Filter Case-Insensitive (Huruf besar/kecil dianggap sama)
-        # Menghapus baris jika 'Saturday' muncul di COMPNAME atau JOBTITLE
         mask_saturday = (
             df_analysis['COMPNAME'].str.contains('Saturday', case=False, na=False) | 
             df_analysis['JOBTITLE'].str.contains('Saturday', case=False, na=False)
         )
-        # Ambil kebalikannya (~) alias data yang TIDAK mengandung kata Saturday
         df_analysis = df_analysis[~mask_saturday]
 
     # --- KPI SUMMARY ---
@@ -126,8 +120,7 @@ if not df.empty:
     kpi1, kpi2, kpi3, kpi4 = st.columns(4)
     
     with kpi1:
-        # Menampilkan total pekerjaan sesuai filter saat ini (df_analysis)
-        st.metric("Total Jobs", f"{len(df_analysis):,}")
+        st.metric("Total Jobs", f"{len(df_analysis):,}") # Menggunakan df_analysis agar angka sinkron dengan grafik
 
     with kpi2:
         st.metric("Total Kapal Aktif", df_analysis['VESSELID'].nunique())
@@ -147,21 +140,20 @@ if not df.empty:
 
     # --- VISUALISASI UTAMA ---
     
-    # Row 1: Tren Waktu & Distribusi Frekuensi
+    # Row 1: Tren & Distribusi
     row1_col1, row1_col2 = st.columns([2, 1])
 
     with row1_col1:
         st.subheader("📈 Tren Maintenance Per Bulan")
         
-        # Gunakan df_analysis agar tren grafik sesuai dengan filter Saturday Routine
         if not df_analysis.empty:
             jobs_per_month = df_analysis.groupby('Month_Year').size().reset_index(name='Count')
             jobs_per_month = jobs_per_month.sort_values('Month_Year')
             
-            title_suffix = " (Tanpa Saturday Routine)" if exclude_saturday else " (Termasuk Saturday Routine)"
+            suffix = " (Tanpa Routine)" if exclude_saturday else ""
             
             fig_trend = px.line(jobs_per_month, x='Month_Year', y='Count', markers=True, 
-                                title=f"Jumlah Job Report per Bulan{title_suffix}",
+                                title=f"Jumlah Job Report per Bulan{suffix}",
                                 labels={'Month_Year': 'Bulan', 'Count': 'Jumlah Job'})
             st.plotly_chart(fig_trend, use_container_width=True)
         else:
@@ -174,12 +166,12 @@ if not df.empty:
             freq_counts.columns = ['Tipe', 'Jumlah']
             
             fig_pie = px.pie(freq_counts, values='Jumlah', names='Tipe', 
-                               hole=0.4, title="Hours vs Months")
+                               hole=0.4)
             st.plotly_chart(fig_pie, use_container_width=True)
         else:
             st.info("Tidak ada data distribusi.")
 
-    # --- VISUALISASI BARU: SPAREPART PER BULAN ---
+    # --- VISUALISASI LEVEL 2: SPAREPART (URUTAN DIPERBAIKI) ---
     st.markdown("---")
     st.subheader("🏆 Analisis Sparepart & Komponen")
     
@@ -189,23 +181,30 @@ if not df.empty:
         if not df_analysis.empty:
             st.write("**Tren Komponen Paling Sering Di-Maintenance:**")
             
-            # Slider pengaturan
+            # Slider
             top_n = st.slider("Jumlah Top Komponen:", min_value=3, max_value=15, value=5)
             
-            # 1. Cari Top N komponen dari data yang sudah bersih
+            # 1. Cari Top N komponen (List ini sudah URUT dari Terbanyak ke Sedikit)
             top_comps = df_analysis['COMPNAME'].value_counts().head(top_n).index.tolist()
             
-            # 2. Filter data hanya untuk Top N komponen ini
+            # 2. Filter data
             df_trend_comp = df_analysis[df_analysis['COMPNAME'].isin(top_comps)]
             
             # 3. Grouping
             comp_trend = df_trend_comp.groupby(['Month_Year', 'COMPNAME']).size().reset_index(name='Count')
             comp_trend = comp_trend.sort_values('Month_Year')
             
-            # 4. Plot
-            fig_comp_trend = px.bar(comp_trend, x='Month_Year', y='Count', color='COMPNAME',
-                                    labels={'Month_Year': 'Bulan', 'Count': 'Frekuensi', 'COMPNAME': 'Sparepart'},
-                                    text='Count')
+            # 4. Plot dengan URUTAN (Category Orders)
+            fig_comp_trend = px.bar(
+                comp_trend, 
+                x='Month_Year', 
+                y='Count', 
+                color='COMPNAME',
+                labels={'Month_Year': 'Bulan', 'Count': 'Frekuensi', 'COMPNAME': 'Sparepart'},
+                text='Count',
+                # --- FITUR BARU: MEMAKSA URUTAN WARNA SESUAI RANKING ---
+                category_orders={'COMPNAME': top_comps} 
+            )
             
             fig_comp_trend.update_traces(textposition='inside', textfont_size=10)
             st.plotly_chart(fig_comp_trend, use_container_width=True)
@@ -226,7 +225,7 @@ if not df.empty:
         else:
             st.info("Tidak ada data.")
 
-    # --- ANALISIS KAPAL (Row 3) ---
+    # --- ANALISIS KAPAL ---
     st.markdown("---")
     st.subheader("🚢 Aktivitas Kapal")
     
@@ -239,11 +238,10 @@ if not df.empty:
                             title="Top Kapal dengan Maintenance Terbanyak")
         st.plotly_chart(fig_vessel, use_container_width=True)
 
-    # --- TABEL DATA DETAIL ---
+    # --- TABEL DATA ---
     st.markdown("---")
     
     with st.expander("📄 Lihat Detail Data (Tabel)"):
-        # Tampilkan kolom penting
         show_cols = ['JOBREPORT_DATE', 'VESSELID', 'COMPNAME', 'JOBTITLE', 'FREQ_TYPE', 'JOBFREQ', 'JOBREPORT_REMARK']
         st.dataframe(df_analysis[show_cols], use_container_width=True)
         
