@@ -251,6 +251,13 @@ if not df.empty:
             mime='text/csv',
         )
 
+# --- DEBUGGING AREA (Hapus nanti jika sudah fix) ---
+st.markdown("---")
+st.subheader("🕵️ Debugging Mode")
+st.write("Cek apakah kolom Month_Year terbentuk dengan benar di Server:")
+st.write(df[['TAHUN', 'BULAN', 'Month_Year', 'COMPNAME']].head())
+st.write(f"Jumlah baris data: {len(df)}")
+
 else:
     st.warning("Data belum dimuat. Pastikan file Excel berada di folder yang benar.")
 
