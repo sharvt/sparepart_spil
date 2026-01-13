@@ -237,8 +237,7 @@ if not df.empty:
 
     # --- TABEL DATA DETAIL ---
     st.markdown("---")
-    st.subheader("📋 Detail Data Laporan")
-    
+        
     with st.expander("Klik untuk melihat/menyembunyikan tabel data raw"):
         show_cols = ['JOBREPORT_DATE', 'VESSELID', 'JOBTITLE', 'COMPNAME', 'FREQ_TYPE', 'JOBFREQ', 'JOBREPORT_REMARK']
         st.dataframe(df_analysis[show_cols], use_container_width=True)
