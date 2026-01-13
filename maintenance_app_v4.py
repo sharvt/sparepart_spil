@@ -140,7 +140,7 @@ if not df.empty:
     row2_col1, row2_col2 = st.columns(2)
 
     with row2_col1:
-        st.subheader("🚢 Top 10 Kapal dengan Maintenance Terbanyak")
+        st.subheader("🚢 Kapal Berdasarkan Banyak Maintenance")
         if not filtered_df.empty:
             top_vessels = filtered_df['VESSELID'].value_counts().head(10).reset_index()
             top_vessels.columns = ['Vessel ID', 'Jumlah Maintenance']
