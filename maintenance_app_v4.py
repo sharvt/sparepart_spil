@@ -116,7 +116,6 @@ if not df.empty:
         df_analysis = df_analysis[~mask_saturday]
 
     # --- KPI SUMMARY ---
-    st.markdown("### 📊 Key Performance Indicators")
     kpi1, kpi2, kpi3, kpi4 = st.columns(4)
     
     with kpi1:
