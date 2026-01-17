@@ -82,9 +82,10 @@ if not df.empty:
     
     st.sidebar.markdown("---")
     
-    # Filter Saturday Routine
-    exclude_saturday = st.sidebar.checkbox("Sembunyikan 'Saturday Routine'", value=True)
-    st.sidebar.caption("Menyembunyikan maintenance rutin mingguan agar grafik fokus pada sparepart.")
+    # --- FILTER BERDASARKAN RUNNING HOURS (RH) ---
+    # Ini jauh lebih akurat daripada filter teks
+    exclude_zero_rh = st.sidebar.checkbox("Hanya Tampilkan Running Hours > 0", value=True)
+    st.sidebar.caption("Jika dicentang, dashboard HANYA menampilkan pekerjaan mesin yang beroperasi (exclude monthly checking/inspeksi rutin).")
 
     # --- PENERAPAN FILTER ---
     
@@ -105,22 +106,18 @@ if not df.empty:
         (df['FREQ_TYPE'].isin(selected_freqs))
     ]
     
-    # 2. Filter Saturday Routine (Untuk Analisis Komponen)
+    # 2. Filter Running Hours
     df_analysis = filtered_df.copy()
     
-    if exclude_saturday:
-        mask_saturday = (
-            df_analysis['COMPNAME'].str.contains('Saturday', case=False, na=False) | 
-            df_analysis['JOBTITLE'].str.contains('Saturday', case=False, na=False)
-        )
-        df_analysis = df_analysis[~mask_saturday]
+    if exclude_zero_rh:
+        # HANYA AMBIL DATA DENGAN RH > 0
+        df_analysis = df_analysis[df_analysis['RH_THIS_MONTH_UNTIL_JOBDONE'] > 0]
 
     # --- KPI SUMMARY ---
-    st.markdown("### 📊 Key Performance Indicators")
     kpi1, kpi2, kpi3, kpi4 = st.columns(4)
     
     with kpi1:
-        st.metric("Total Jobs", f"{len(df_analysis):,}") # Menggunakan df_analysis agar angka sinkron dengan grafik
+        st.metric("Total Jobs (Filtered)", f"{len(df_analysis):,}") 
 
     with kpi2:
         st.metric("Total Kapal Aktif", df_analysis['VESSELID'].nunique())
@@ -133,7 +130,10 @@ if not df.empty:
         st.metric("Top Komponen", top_comp_name)
 
     with kpi4:
-        avg_rh = df_analysis['RH_THIS_MONTH_UNTIL_JOBDONE'].mean()
+        if not df_analysis.empty:
+            avg_rh = df_analysis['RH_THIS_MONTH_UNTIL_JOBDONE'].mean()
+        else:
+            avg_rh = 0
         st.metric("Rata-rata Running Hours", f"{avg_rh:,.0f} Jam")
 
     st.markdown("---")
@@ -150,7 +150,7 @@ if not df.empty:
             jobs_per_month = df_analysis.groupby('Month_Year').size().reset_index(name='Count')
             jobs_per_month = jobs_per_month.sort_values('Month_Year')
             
-            suffix = " (Tanpa Routine)" if exclude_saturday else ""
+            suffix = " (RH > 0)" if exclude_zero_rh else " (Semua)"
             
             fig_trend = px.line(jobs_per_month, x='Month_Year', y='Count', markers=True, 
                                 title=f"Jumlah Job Report per Bulan{suffix}",
@@ -171,7 +171,7 @@ if not df.empty:
         else:
             st.info("Tidak ada data distribusi.")
 
-    # --- VISUALISASI LEVEL 2: SPAREPART (URUTAN DIPERBAIKI) ---
+    # --- VISUALISASI LEVEL 2: SPAREPART (URUTAN SESUAI RANKING) ---
     st.markdown("---")
     st.subheader("🏆 Analisis Sparepart & Komponen")
     
@@ -202,7 +202,7 @@ if not df.empty:
                 color='COMPNAME',
                 labels={'Month_Year': 'Bulan', 'Count': 'Frekuensi', 'COMPNAME': 'Sparepart'},
                 text='Count',
-                # --- FITUR BARU: MEMAKSA URUTAN WARNA SESUAI RANKING ---
+                # Memaksa urutan warna sesuai ranking
                 category_orders={'COMPNAME': top_comps} 
             )
             
@@ -242,7 +242,7 @@ if not df.empty:
     st.markdown("---")
     
     with st.expander("📄 Lihat Detail Data (Tabel)"):
-        show_cols = ['JOBREPORT_DATE', 'VESSELID', 'COMPNAME', 'JOBTITLE', 'FREQ_TYPE', 'JOBFREQ', 'JOBREPORT_REMARK']
+        show_cols = ['JOBREPORT_DATE', 'VESSELID', 'COMPNAME', 'JOBTITLE', 'FREQ_TYPE', 'RH_THIS_MONTH_UNTIL_JOBDONE', 'JOBREPORT_REMARK']
         st.dataframe(df_analysis[show_cols], use_container_width=True)
         
         csv = df_analysis.to_csv(index=False).encode('utf-8')
