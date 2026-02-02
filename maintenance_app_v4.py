@@ -315,7 +315,7 @@ if not df.empty:
             avg_delay_all = df_analysis['Delay_Days'].mean()
             on_time_pct = len(df_analysis[df_analysis['Delay_Days'] <= 1]) / len(df_analysis) * 100
             
-            st.metric("Rata-rata Delay Armada", f"{avg_delay_all:.1f} Hari")
+            st.metric("Rata-rata Delay Pelaporan", f"{avg_delay_all:.1f} Hari")
             st.metric("Persentase Tepat Waktu", f"{on_time_pct:.1f}%")
             st.caption("*Tepat Waktu = Input di hari yang sama atau H+1")
 
@@ -335,6 +335,195 @@ if not df.empty:
             mime='text/csv',
         )
 
+    # =========================================================================
+    # --- FITUR TAMBAHAN: SMART FORECASTING (FIXED DATE ERROR) ---
+    # =========================================================================
+    st.markdown("---")
+    st.header("🔮 Prediksi Waktu Maintenance (Smart ARIMA)")
+    
+    st.markdown("""
+    <div style="background-color: rgba(128, 128, 128, 0.1); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
+        <strong>Metode: Log-ARIMA dengan Auto-Validation</strong><br>
+        Sistem menggunakan transformasi logaritma otomatis untuk menstabilkan varian data.
+        Skor akurasi (MAE/RMSE) dihitung secara <em>real-time</em> menggunakan data 3 bulan terakhir sebagai ujian.
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Cek Library
+    try:
+        from statsmodels.tsa.statespace.sarimax import SARIMAX
+        import plotly.graph_objects as go
+        import numpy as np 
+        has_libraries = True
+    except ImportError:
+        st.error("❌ Library `statsmodels` atau `numpy` belum terinstall.")
+        has_libraries = False
+
+    if has_libraries and not df_analysis.empty:
+        col_fc1, col_fc2 = st.columns([1, 2])
+        
+        with col_fc1:
+            st.subheader("⚙️ Konfigurasi")
+            
+            # Filter minimal 5 data historis
+            comp_counts = df_analysis['COMPNAME'].value_counts()
+            valid_comps = comp_counts[comp_counts >= 5].index.tolist()
+            
+            if not valid_comps:
+                st.warning("Data historis terlalu sedikit (< 5 kejadian).")
+            else:
+                target_comp = st.selectbox("Pilih Sparepart:", valid_comps)
+                forecast_steps = st.slider("Durasi Prediksi (Bulan):", 1, 12, 6)
+                
+                # --- PREPROCESSING ---
+                df_ts = df_analysis[df_analysis['COMPNAME'] == target_comp].copy()
+                df_ts['Date'] = pd.to_datetime(dict(year=df_ts['TAHUN'], month=df_ts['BULAN'], day=1))
+                
+                # Agregasi & Resampling
+                ts_data = df_ts.groupby('Date').size().reset_index(name='Count')
+                ts_data = ts_data.set_index('Date')
+                
+                # Resampling & Fill Missing Values
+                ts_resampled = ts_data.resample('MS').sum().fillna(0)
+                ts_series = ts_resampled['Count'] # Pastikan format Series
+                
+                st.info(f"Basis Data Historis: {len(ts_series)} Bulan")
+
+        with col_fc2:
+            if valid_comps and len(ts_series) >= 10: 
+                try:
+                    # =========================================================
+                    # 1. BACKTESTING (3 BULAN TERAKHIR)
+                    # =========================================================
+                    train_data = ts_series.iloc[:-3]
+                    test_data = ts_series.iloc[-3:]
+
+                    train_log = np.log1p(train_data)
+
+                    model_eval = SARIMAX(
+                        train_log,
+                        order=(1, 1, 1),
+                        seasonal_order=(1, 0, 1, 12),
+                        enforce_stationarity=False,
+                        enforce_invertibility=False
+                    )
+                    fit_eval = model_eval.fit(disp=False)
+
+                    fc_eval_log = fit_eval.get_forecast(steps=3)
+                    pred_eval = np.expm1(fc_eval_log.predicted_mean)
+                    pred_eval.index = test_data.index
+
+                    # Error Metrics
+                    mae = (test_data - pred_eval).abs().mean()
+                    rmse = ((test_data - pred_eval) ** 2).mean() ** 0.5
+
+                    mean_actual = test_data.mean()
+                    nmae = mae / mean_actual if mean_actual != 0 else 0
+
+                    # =========================================================
+                    # 2. MODEL FINAL (FULL DATA)
+                    # =========================================================
+                    full_log = np.log1p(ts_series)
+
+                    model_main = SARIMAX(
+                        full_log,
+                        order=(1, 1, 1),
+                        seasonal_order=(1, 0, 1, 12),
+                        enforce_stationarity=False,
+                        enforce_invertibility=False
+                    )
+                    fit_main = model_main.fit(disp=False)
+
+                    fc_res = fit_main.get_forecast(steps=forecast_steps)
+                    pred_future = np.expm1(fc_res.predicted_mean)
+
+                    conf_int_log = fc_res.conf_int()
+                    lower = np.expm1(conf_int_log.iloc[:, 0])
+                    upper = np.expm1(conf_int_log.iloc[:, 1])
+
+                    # =========================================================
+                    # 3. KPI AKURASI (RELATIF, BUKAN ABSOLUT)
+                    # =========================================================
+                    col_score1, col_score2, col_score3 = st.columns(3)
+
+                    col_score1.metric("MAE", f"{mae:.2f}")
+                    col_score2.metric("RMSE", f"{rmse:.2f}")
+                    col_score3.metric("NMAE", f"{nmae:.2f}", help="MAE / rata-rata aktual")
+
+                    if nmae < 0.2:
+                        st.success("✅ Akurasi Tinggi (Stabil)")
+                    elif nmae < 0.5:
+                        st.warning("⚠️ Akurasi Sedang (Data Fluktuatif)")
+                    else:
+                        st.error("❌ Akurasi Rendah (High Uncertainty)")
+
+                    # =========================================================
+                    # 4. VISUALISASI
+                    # =========================================================
+                    hist_df = ts_series.reset_index()
+                    hist_df.columns = ['Date', 'Count']
+
+                    pred_df = pd.DataFrame({
+                        'Date': pred_future.index,
+                        'Prediksi': pred_future.values,
+                        'Lower': lower.values,
+                        'Upper': upper.values
+                    })
+
+                    numeric_cols = ['Prediksi', 'Lower', 'Upper']
+                    pred_df[numeric_cols] = pred_df[numeric_cols].clip(lower=0)
+
+                    fig_arima = go.Figure()
+
+                    fig_arima.add_trace(go.Scatter(
+                        x=hist_df['Date'], y=hist_df['Count'],
+                        mode='lines+markers',
+                        name='Aktual'
+                    ))
+
+                    fig_arima.add_trace(go.Scatter(
+                        x=pred_df['Date'], y=pred_df['Prediksi'],
+                        mode='lines+markers',
+                        name='Prediksi',
+                        line=dict(dash='dash')
+                    ))
+
+                    fig_arima.add_trace(go.Scatter(
+                        x=pred_df['Date'], y=pred_df['Upper'],
+                        mode='lines', line=dict(width=0),
+                        showlegend=False
+                    ))
+                    fig_arima.add_trace(go.Scatter(
+                        x=pred_df['Date'], y=pred_df['Lower'],
+                        mode='lines', line=dict(width=0),
+                        fill='tonexty',
+                        name='Confidence Interval'
+                    ))
+
+                    fig_arima.update_layout(
+                        title=f"Forecast Maintenance: {target_comp}",
+                        xaxis_title="Periode",
+                        yaxis_title="Frekuensi Maintenance",
+                        hovermode="x unified"
+                    )
+
+                    st.plotly_chart(fig_arima, use_container_width=True)
+
+                    # =========================================================
+                    # 5. INSIGHT RINGKAS
+                    # =========================================================
+                    total_pred = int(pred_df['Prediksi'].sum())
+                    st.info(f"💡 Estimasi total **{total_pred}** kejadian maintenance dalam {forecast_steps} bulan ke depan.")
+
+
+                except Exception as e:
+                    st.error(f"Gagal memproses model: {e}")
+                    st.caption("Kemungkinan data historis tidak stabil atau memiliki gap yang terlalu lebar.")
+            
+            elif valid_comps:
+                st.warning("⚠️ Data historis kurang dari 10 bulan. Prediksi tidak akurat.")
+            else:
+                st.info("👈 Pilih komponen di menu sebelah kiri.")
 else:
     st.warning("⚠️ Data belum dimuat. Pastikan file Excel tersedia di folder yang benar.")
 
