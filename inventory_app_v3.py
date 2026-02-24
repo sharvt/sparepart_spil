@@ -127,7 +127,7 @@ with tab2:
     
     col_nc1, col_nc2 = st.columns([2, 1])
     with col_nc1:
-        st.subheader("Distribusi Kategori Asli Sistem")
+        st.subheader("Distribusi Kategori")
         nc_cat = df_nc['KATEGORI_EKSTRAK'].value_counts().head(15).reset_index()
         nc_cat.columns = ['KATEGORI_HASIL', 'JUMLAH']
         fig_nc_cat = px.bar(nc_cat, x='JUMLAH', y='KATEGORI_HASIL', orientation='h', 
@@ -160,12 +160,11 @@ with tab3:
     
     c1, c2 = st.columns(2)
     c1.metric("Total Items Consumables", f"{len(df_c):,}")
-    c2.metric("Kategori Sistem Terlibat", df_c['KATEGORI_EKSTRAK'].nunique())
+    c2.metric("Kategori Yang Terlibat", df_c['KATEGORI_EKSTRAK'].nunique())
     
     st.markdown("---")
     
     st.subheader("Kelompok Consumables Terbanyak")
-    st.caption("Berdasarkan kategori pengelompokan asli sistem (`GABUNGAN_KATEGORI_ASLI`).")
     
     c_cat_counts = df_c['KATEGORI_EKSTRAK'].value_counts().head(15).reset_index()
     c_cat_counts.columns = ['KATEGORI_HASIL', 'JUMLAH']
