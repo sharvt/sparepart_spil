@@ -59,6 +59,30 @@ def load_data():
         df.loc[df['Delay_Days'] < 0, 'Delay_Days'] = 0
         df['Delay_Days'] = df['Delay_Days'].fillna(0).astype(int)
         
+        # --- 8. STANDARDISASI NAMA KOMPONEN (REFINED) ---
+        def classify_comp(name):
+            name = str(name).upper()
+            # Kunci: Nama Standar | Nilai: Variasi kata kunci yang mungkin muncul
+            mapping = {
+                'Emergency Generator': ['EMERGENCY GEN', 'EMER. GEN', 'EMGEN'],
+                'Diesel Generator (D/G)': ['D/G', 'DG ', 'AUXILIARY ENGINE', 'AE ', 'GENERATOR'],
+                'Main Engine': ['MAIN ENGINE', 'M/E', 'ME '],
+                'Air Compressor': ['AIR COMPRESSOR', 'COMPRESSOR', 'KOMPRESOR'],
+                'Purifier': ['PURIFIER', 'SEPARATOR'],
+                'Boiler': ['BOILER', 'KETEL'],
+                'Fresh Water Generator': ['FWG', 'FRESH WATER GEN'],
+                'Steering Gear': ['STEERING', 'KEMUDI'],
+                'Pumps': ['PUMP', 'POMPA']
+            }
+            
+            for standardized_name, keywords in mapping.items():
+                if any(kw in name for kw in keywords):
+                    return standardized_name
+            
+            return 'Others' # Jika tidak ada keyword yang cocok
+
+        df['CATEGORY'] = df['COMPNAME'].apply(classify_comp)
+
         return df
     except Exception as e:
         st.error(f"Error loading data: {e}")
@@ -163,7 +187,7 @@ if not df.empty:
 
     with kpi3:
         if not df_analysis.empty:
-            top_comp_name = df_analysis['COMPNAME'].mode()[0]
+            top_comp_name = df_analysis['CATEGORY'].mode()[0]
         else:
             top_comp_name = "-"
         st.metric("Top Komponen", top_comp_name)
@@ -202,38 +226,48 @@ if not df.empty:
         else:
             st.info("Tidak ada data.")
 
-    # --- VISUALISASI SPAREPART ---
+    # --- VISUALISASI SPAREPART (FIXED) ---
     st.markdown("---")
-    st.subheader("🏆 Analisis Sparepart & Komponen")
+    st.subheader("🏆 Analisis Kategori Komponen") # Judul diubah ke Kategori
     
     col_viz_new, col_viz_right = st.columns([2, 1])
     
     with col_viz_new:
         if not df_analysis.empty:
-            st.write("**Tren Komponen Paling Sering Di-Maintenance:**")
-            top_n = st.slider("Jumlah Top Komponen:", 3, 15, 5)
-            top_comps = df_analysis['COMPNAME'].value_counts().head(top_n).index.tolist()
-            df_trend_comp = df_analysis[df_analysis['COMPNAME'].isin(top_comps)]
-            comp_trend = df_trend_comp.groupby(['Month_Year', 'COMPNAME']).size().reset_index(name='Count').sort_values('Month_Year')
+            st.write("**Tren Kategori Paling Sering Di-Maintenance:**")
+            top_n = st.slider("Jumlah Top Kategori:", 3, 15, 5) # Label slider diubah
             
-            fig_comp_trend = px.bar(
-                comp_trend, x='Month_Year', y='Count', color='COMPNAME',
-                text='Count', category_orders={'COMPNAME': top_comps} 
+            # Ambil Top Kategori
+            top_cat_list = df_analysis['CATEGORY'].value_counts().head(top_n).index.tolist()
+            df_trend_cat = df_analysis[df_analysis['CATEGORY'].isin(top_cat_list)]
+            
+            # Groupby menggunakan CATEGORY
+            cat_trend = df_trend_cat.groupby(['Month_Year', 'CATEGORY']).size().reset_index(name='Count').sort_values('Month_Year')
+            
+            fig_cat_trend = px.bar(
+                cat_trend, x='Month_Year', y='Count', color='CATEGORY',
+                text='Count', 
+                category_orders={'CATEGORY': top_cat_list}, # Order berdasarkan CATEGORY
+                title="Jumlah Job per Kategori per Bulan"
             )
-            fig_comp_trend.update_traces(textposition='inside', textfont_size=10)
-            st.plotly_chart(fig_comp_trend, use_container_width=True)
+            fig_cat_trend.update_traces(textposition='inside', textfont_size=10)
+            st.plotly_chart(fig_cat_trend, use_container_width=True)
         else:
             st.info("Data kosong.")
 
     with col_viz_right:
-        st.write("**Top 10 Komponen (Total Periode):**")
+        st.write("**Top 10 Kategori (Total Periode):**") # Judul diubah
         if not df_analysis.empty:
-            top_components = df_analysis['COMPNAME'].value_counts().head(10).reset_index()
-            top_components.columns = ['Nama Komponen', 'Frekuensi']
-            fig_comp = px.bar(top_components, y='Nama Komponen', x='Frekuensi', orientation='h',
-                              text='Frekuensi', color='Frekuensi', color_continuous_scale='Reds')
-            fig_comp.update_layout(yaxis={'categoryorder':'total ascending'})
-            st.plotly_chart(fig_comp, use_container_width=True)
+            # Pastikan mengambil dari CATEGORY
+            top_categories = df_analysis['CATEGORY'].value_counts().head(10).reset_index()
+            top_categories.columns = ['Kategori', 'Frekuensi']
+            
+            fig_cat_bar = px.bar(
+                top_categories, y='Kategori', x='Frekuensi', orientation='h',
+                text='Frekuensi', color='Frekuensi', color_continuous_scale='Reds'
+            )
+            fig_cat_bar.update_layout(yaxis={'categoryorder':'total ascending'})
+            st.plotly_chart(fig_cat_bar, use_container_width=True)
         else:
             st.info("Tidak ada data.")
 
@@ -366,7 +400,7 @@ if not df.empty:
             st.subheader("⚙️ Konfigurasi")
             
             # Filter minimal 5 data historis
-            comp_counts = df_analysis['COMPNAME'].value_counts()
+            comp_counts = df_analysis['CATEGORY'].value_counts()
             valid_comps = comp_counts[comp_counts >= 5].index.tolist()
             
             if not valid_comps:
@@ -376,7 +410,7 @@ if not df.empty:
                 forecast_steps = st.slider("Durasi Prediksi (Bulan):", 1, 12, 6)
                 
                 # --- PREPROCESSING ---
-                df_ts = df_analysis[df_analysis['COMPNAME'] == target_comp].copy()
+                df_ts = df_analysis[df_analysis['CATEGORY'] == target_comp].copy()
                 df_ts['Date'] = pd.to_datetime(dict(year=df_ts['TAHUN'], month=df_ts['BULAN'], day=1))
                 
                 # Agregasi & Resampling
